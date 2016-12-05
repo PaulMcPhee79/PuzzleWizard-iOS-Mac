@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Puzzle Zauberer</string>
+    <string name="shared_user_label">PuzzleZaubererUID</string>
+    <string name="CM_LocaleKey">DE</string>
+    <string name="DlgTitleLicenseFailed">Lizenzprüfung Fehlgeschlagen</string>
+	<string name="MsgLicenseExpired">Bitte verbinden Sie mit dem internet, und drücken Sie Wiederholen, um Ihre Kopie von Puzzle Zauberer lizenz.</string>
+	<string name="MsgLicenseNotice">Bitte verbinden Sie mit dem Internet in der nächsten [000] minuten, um Ihre Kopie von Puzzle Zauberer lizenz.</string>
+	<string name="ToastLicenseChecking">Überprüfung der Anwendung&#8230;</string>
+	<string name="DlgBtnRetry">Wiederholen</string>
+	<string name="DlgBtnBuyNow">Jetzt Kaufen</string>
+	<string name="DlgBtnOK">Ordnung</string>
+</resources>

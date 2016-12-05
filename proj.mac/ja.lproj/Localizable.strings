@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  PuzzleWizard
+
+  Created by Cheeky Mammoth on 1/02/2014.
+
+*/
+
+"CM_LocaleKey" = "JA";
+"Yes" = "はい";
+"No" = "いいえ";
+"OK" = "OK";
+"Cancel" = "キャンセル";
+"ALERT_TITLE_iCloudUnavailable" = "iCloud 構成されていません";
+"ALERT_MSG_iCloudUnavailable" = "設定する iCloud お使いのデバイスを介して上 設定->iCloud し、\n再試行してください";

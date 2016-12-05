@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  PuzzleWizard
+
+  Created by Cheeky Mammoth on 1/02/2014.
+
+*/
+
+"CFBundleDisplayName" = "El mago de los puzles";
+"CFBundleName" = "ElMagoDeLosPuzles";
+"NSHumanReadableCopyright" = "Propiedad Artística © 2015 Cheeky Mammoth Pty Ltd. Reservados Todos los Derechos.";
+"CFBundleGetInfoString" = "El mago de los puzles v1.0, Propiedad Artística © 2015 Cheeky Mammoth Pty Ltd.";

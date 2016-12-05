@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">El mago de los puzles</string>
+    <string name="shared_user_label">ElMagoDeLosPuzlesUID</string>
+    <string name="CM_LocaleKey">ES</string>
+    <string name="DlgTitleLicenseFailed">Licencia Check Failed</string>
+	<string name="MsgLicenseExpired">Por favor, conectarse a internet y pulse Reintentar para autorizar su copia del El mago de los puzles.</string>
+	<string name="MsgLicenseNotice">Por favor, conectarse a internet en la siguiente [000] minutos para licenciar su copia de El mago de los puzles.</string>
+	<string name="ToastLicenseChecking">Comprobación de licencia de la aplicación&#8230;</string>
+	<string name="DlgBtnRetry">Reintentar</string>
+	<string name="DlgBtnBuyNow">Comprar Ahora</string>
+	<string name="DlgBtnOK">Visto Bueno</string>
+</resources>

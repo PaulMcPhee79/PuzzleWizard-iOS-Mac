@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  PuzzleWizard
+
+  Created by Cheeky Mammoth on 1/02/2014.
+
+*/
+
+"CM_LocaleKey" = "ZH";
+"Yes" = "是";
+"No" = "否";
+"OK" = "好";
+"Cancel" = "取消";
+"ALERT_TITLE_iCloudUnavailable" = "iCloud 未配置";
+"ALERT_MSG_iCloudUnavailable" = "配置 iCloud 通过您的设备上\n设置->iCloud 然后再试一次";

@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'HelloWorld' target in the 'HelloWorld' project
+//
+
+// SKU: com.cheekymammoth.puzzlewizard.SKU
+// Bundle ID: com.cheekymammoth.puzzlewizard
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

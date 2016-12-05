@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Puzzle Wizard</string>
+    <string name="shared_user_label">PuzzleWizardUID</string>
+    <string name="CM_LocaleKey">EN</string>
+    <string name="DlgTitleLicenseFailed">License Check Failed</string>
+	<string name="MsgLicenseExpired">Please connect to the internet and press Retry to license your copy of Puzzle Wizard.</string>
+	<string name="MsgLicenseNotice">Please connect to the internet in the next [000] minutes to license your copy of Puzzle Wizard.</string>
+	<string name="ToastLicenseChecking">Checking application license&#8230;</string>
+	<string name="DlgBtnRetry">Retry</string>
+	<string name="DlgBtnBuyNow">Buy Now</string>
+	<string name="DlgBtnOK">OK</string>
+</resources>

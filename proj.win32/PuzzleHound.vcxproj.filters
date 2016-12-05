@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Classes\SceneControllers">
+      <UniqueIdentifier>{76a3d1a3-d39b-4b99-8f7c-ebd467e1dabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Managers">
+      <UniqueIdentifier>{8bb09fd5-f488-4e61-8dfc-440234f88cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Prop">
+      <UniqueIdentifier>{23df7e0d-874f-49a6-9c08-8dea764e5472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Interfaces">
+      <UniqueIdentifier>{478c2967-1eb5-48bd-b72c-3498b86d7937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Utils">
+      <UniqueIdentifier>{9ba5c334-2d1a-4333-b62c-2b57c8d2b423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SceneViews">
+      <UniqueIdentifier>{0929f9d6-794c-4305-aa5b-59d9c3ae8ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Events">
+      <UniqueIdentifier>{72a76f54-008b-4d4e-b502-cf99fbc18c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Extensions">
+      <UniqueIdentifier>{5755170f-a21d-4c85-a518-fc4328363b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Puzzle">
+      <UniqueIdentifier>{4d360168-cf69-4cad-971c-0c41e616ff42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Puzzle\Controllers">
+      <UniqueIdentifier>{6a8cf54f-d572-4ce5-921e-5c9e018648c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Puzzle\Data">
+      <UniqueIdentifier>{c147ebf2-e9d1-4cbf-af37-9cf5ea72d410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Puzzle\Inputs">
+      <UniqueIdentifier>{9ee71d85-6ffa-48d6-ac7c-dab2c2a6b339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Puzzle\View">
+      <UniqueIdentifier>{29f5638f-8185-44ba-8b0c-9f49fd3932f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Puzzle\View\Menu">
+      <UniqueIdentifier>{27dc350a-6534-415e-9212-7442a9fa221c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Puzzle\View\Menu\MenuItem">
+      <UniqueIdentifier>{62e81efe-a87d-481c-9657-75727d457a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Puzzle\View\Playfield">
+      <UniqueIdentifier>{fa604817-ee0a-4f7b-b64b-af7e43ffc6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Puzzle\View\Playfield\Effects">
+      <UniqueIdentifier>{a3ff74e3-c1e8-4fa9-aef8-d1443ae4dac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Puzzle\View\Playfield\HUD">
+      <UniqueIdentifier>{6b03b1b1-b5f4-47cb-8ffa-b0fcad4ab741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Prop\UIViews">
+      <UniqueIdentifier>{f0f1fdf5-dd28-4dda-8ed7-4ff4db5dc79a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Prop\UIControls">
+      <UniqueIdentifier>{43274b47-5a5e-46e5-ac36-143655e52c4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneControllers\GameController.cpp">
+      <Filter>Classes\SceneControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneControllers\SceneController.cpp">
+      <Filter>Classes\SceneControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Managers\SpriteLayerManager.cpp">
+      <Filter>Classes\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Prop\CroppedProp.cpp">
+      <Filter>Classes\Prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Prop\Prop.cpp">
+      <Filter>Classes\Prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneViews\SceneView.cpp">
+      <Filter>Classes\SceneViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Events\EventDispatcher.cpp">
+      <Filter>Classes\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneViews\PlayfieldView.cpp">
+      <Filter>Classes\SceneViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneControllers\PlayfieldController.cpp">
+      <Filter>Classes\SceneControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\Utils.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Extensions\MovieClip.cpp">
+      <Filter>Classes\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Extensions\Juggler.cpp">
+      <Filter>Classes\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\ReusableCache.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\PoolIndexer.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\IntTweener.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\FloatTweener.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Data\PuzzleTile.cpp">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Data\Player.cpp">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Data\HumanPlayer.cpp">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Data\MirroredPlayer.cpp">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Data\Level.cpp">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Data\Puzzle.cpp">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\TilePiece.cpp">
+      <Filter>Classes\Puzzle\View\Playfield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Data\ColorFiller.cpp">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\PuzzleHelper.cpp">
+      <Filter>Classes\Puzzle\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\TileDecoration.cpp">
+      <Filter>Classes\Puzzle\View\Playfield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Prop\CMSprite.cpp">
+      <Filter>Classes\Prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\SpriteColorer.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\ByteTweener.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\PlayerPiece.cpp">
+      <Filter>Classes\Puzzle\View\Playfield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\AnimPlayerPiece.cpp">
+      <Filter>Classes\Puzzle\View\Playfield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\StaticPlayerPiece.cpp">
+      <Filter>Classes\Puzzle\View\Playfield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\Twinkle.cpp">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\PuzzleBoard.cpp">
+      <Filter>Classes\Puzzle\View\Playfield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\Shield.cpp">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Controllers\ShieldManager.cpp">
+      <Filter>Classes\Puzzle\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Controllers\PuzzleOrganizer.cpp">
+      <Filter>Classes\Puzzle\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Controllers\PuzzleController.cpp">
+      <Filter>Classes\Puzzle\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Inputs\TouchPad.cpp">
+      <Filter>Classes\Puzzle\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Inputs\PathFinder.cpp">
+      <Filter>Classes\Puzzle\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Inputs\SearchNode.cpp">
+      <Filter>Classes\Puzzle\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\Transitions.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Inputs\PlayerController.cpp">
+      <Filter>Classes\Puzzle\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\TileRotator.cpp">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\TileShadow.cpp">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\TileConveyorBelt.cpp">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\TileSwapper.cpp">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\Dissolver.cpp">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneViews\MenuView.cpp">
+      <Filter>Classes\SceneViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneControllers\MenuController.cpp">
+      <Filter>Classes\SceneControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Prop\UIViews\MenuSubview.cpp">
+      <Filter>Classes\Prop\UIViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\LevelMenu.cpp">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\LevelIcon.cpp">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\PuzzlePage.cpp">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\PuzzlePageEntry.cpp">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Prop\UIControls\MenuButton.cpp">
+      <Filter>Classes\Prop\UIControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Data\GameProgress.cpp">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\Controllers\GameProgressController.cpp">
+      <Filter>Classes\Puzzle\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\MenuItem\MenuItem.cpp">
+      <Filter>Classes\Puzzle\View\Menu\MenuItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\MenuDialog.cpp">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\MenuDialogManager.cpp">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\MenuBuilder.cpp">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Managers\TouchManager.cpp">
+      <Filter>Classes\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Managers\GameSettings.cpp">
+      <Filter>Classes\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\HUD\PlayerHUD.cpp">
+      <Filter>Classes\Puzzle\View\Playfield\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\HUD\HUDCell.cpp">
+      <Filter>Classes\Puzzle\View\Playfield\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\SolvedAnimation.cpp">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\PuzzleRibbon.cpp">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils\DeviceDetails.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneControllers\GameController.h">
+      <Filter>Classes\SceneControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneControllers\SceneController.h">
+      <Filter>Classes\SceneControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\SpriteLayerManager.h">
+      <Filter>Classes\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Prop\CroppedProp.h">
+      <Filter>Classes\Prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Prop\Prop.h">
+      <Filter>Classes\Prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Interfaces\IAnimatable.h">
+      <Filter>Classes\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\Utils.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneViews\SceneView.h">
+      <Filter>Classes\SceneViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Interfaces\IEventListener.h">
+      <Filter>Classes\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Events\EventDispatcher.h">
+      <Filter>Classes\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\Globals.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Interfaces\IReusable.h">
+      <Filter>Classes\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneViews\PlayfieldView.h">
+      <Filter>Classes\SceneViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneControllers\PlayfieldController.h">
+      <Filter>Classes\SceneControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Extensions\MovieClip.h">
+      <Filter>Classes\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Extensions\Juggler.h">
+      <Filter>Classes\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\PoolIndexer.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\ReusableCache.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\IntTweener.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\FloatTweener.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Interfaces\ITileView.h">
+      <Filter>Classes\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Data\PuzzleTile.h">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Data\Player.h">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Interfaces\IPlayerView.h">
+      <Filter>Classes\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\CMTypes.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Data\MirroredPlayer.h">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Data\HumanPlayer.h">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Data\Level.h">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Data\Puzzle.h">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Interfaces\IPuzzleView.h">
+      <Filter>Classes\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\TilePiece.h">
+      <Filter>Classes\Puzzle\View\Playfield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Data\ColorFiller.h">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\PuzzleHelper.h">
+      <Filter>Classes\Puzzle\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\TileDecoration.h">
+      <Filter>Classes\Puzzle\View\Playfield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Prop\CMSprite.h">
+      <Filter>Classes\Prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\SpriteColorer.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\ByteTweener.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\PlayerPiece.h">
+      <Filter>Classes\Puzzle\View\Playfield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\StaticPlayerPiece.h">
+      <Filter>Classes\Puzzle\View\Playfield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\AnimPlayerPiece.h">
+      <Filter>Classes\Puzzle\View\Playfield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\Twinkle.h">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\PuzzleBoard.h">
+      <Filter>Classes\Puzzle\View\Playfield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\Shield.h">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Controllers\ShieldManager.h">
+      <Filter>Classes\Puzzle\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Controllers\PuzzleOrganizer.h">
+      <Filter>Classes\Puzzle\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Controllers\PuzzleController.h">
+      <Filter>Classes\Puzzle\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\CMFileTypes.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Inputs\TouchPad.h">
+      <Filter>Classes\Puzzle\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\Astar.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\Fsa.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Inputs\PathFinder.h">
+      <Filter>Classes\Puzzle\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Inputs\SearchNode.h">
+      <Filter>Classes\Puzzle\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Interfaces\ISearchProvider.h">
+      <Filter>Classes\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\Transitions.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Inputs\PlayerController.h">
+      <Filter>Classes\Puzzle\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\TileRotator.h">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\TileShadow.h">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\TileConveyorBelt.h">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\TileSwapper.h">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\Dissolver.h">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneViews\MenuView.h">
+      <Filter>Classes\SceneViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneControllers\MenuController.h">
+      <Filter>Classes\SceneControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Prop\UIViews\MenuSubview.h">
+      <Filter>Classes\Prop\UIViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\PuzzlePage.h">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\LevelMenu.h">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\LevelIcon.h">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\PuzzlePageEntry.h">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Prop\UIControls\MenuButton.h">
+      <Filter>Classes\Prop\UIControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Data\GameProgress.h">
+      <Filter>Classes\Puzzle\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\Controllers\GameProgressController.h">
+      <Filter>Classes\Puzzle\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\MenuItem\MenuItem.h">
+      <Filter>Classes\Puzzle\View\Menu\MenuItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\MenuDialog.h">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\MenuDialogManager.h">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\MenuBuilder.h">
+      <Filter>Classes\Puzzle\View\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\TouchManager.h">
+      <Filter>Classes\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\TouchTypes.h">
+      <Filter>Classes\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\GameSettings.h">
+      <Filter>Classes\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\HUD\PlayerHUD.h">
+      <Filter>Classes\Puzzle\View\Playfield\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\HUD\HUDCell.h">
+      <Filter>Classes\Puzzle\View\Playfield\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\SolvedAnimation.h">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\PuzzleRibbon.h">
+      <Filter>Classes\Puzzle\View\Playfield\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils\DeviceDetails.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Interfaces\ITileDecorator.h">
+      <Filter>Classes\Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

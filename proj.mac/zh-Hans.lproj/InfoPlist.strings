@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  PuzzleWizard
+
+  Created by Cheeky Mammoth on 1/02/2014.
+
+*/
+
+"CFBundleDisplayName" = "谜题巫师";
+"CFBundleName" = "谜题巫师";
+"NSHumanReadableCopyright" = "版权 © 2015 Cheeky Mammoth Pty Ltd. 保留所有权利.";
+"CFBundleGetInfoString" = "谜题巫师 v1.0, 版权 © 2015 Cheeky Mammoth Pty Ltd.";

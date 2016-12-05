@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Puzzle Magicien</string>
+    <string name="shared_user_label">PuzzleMagicienUID</string>
+    <string name="CM_LocaleKey">FR</string>
+    <string name="DlgTitleLicenseFailed">Licence Vérifier Échec</string>
+	<string name="MsgLicenseExpired">S\'il vous plaît se connecter à Internet et appuyez sur Retenter la licence de votre copie Puzzle Magicien de.</string>
+	<string name="MsgLicenseNotice">S\'il vous plaît se connecter à Internet dans le prochain [000] minutes de votre permis copie Puzzle Magicien de.</string>
+	<string name="ToastLicenseChecking">Vérification de la licence d\'application&#8230;</string>
+	<string name="DlgBtnRetry">Refaire</string>
+	<string name="DlgBtnBuyNow">Acheter Maintenant</string>
+	<string name="DlgBtnOK">OK</string>
+</resources>

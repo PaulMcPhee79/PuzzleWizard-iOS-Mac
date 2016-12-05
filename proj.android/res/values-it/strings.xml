@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mago dei Rompicapi</string>
+    <string name="shared_user_label">MagoDeiRompicapiUID</string>
+    <string name="CM_LocaleKey">IT</string>
+    <string name="DlgTitleLicenseFailed">Controllo Licenza Non Riuscita</string>
+	<string name="MsgLicenseExpired">Si prega di collegarsi a Internet e premere Riprova per la licenza della copia di Mago dei Rompicapi.</string>
+	<string name="MsgLicenseNotice">Si prega di collegarsi a Internet nel prossimo [000] minuti di concedere in licenza la copia di Mago dei Rompicapi.</string>
+	<string name="ToastLicenseChecking">Controllo della licenza dell\'applicazione&#8230;</string>
+	<string name="DlgBtnRetry">Riprovare</string>
+	<string name="DlgBtnBuyNow">Acquista Ora</string>
+	<string name="DlgBtnOK">OK</string>
+</resources>

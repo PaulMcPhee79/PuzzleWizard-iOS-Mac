@@ -1,0 +1,131 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-keep class * extends java.util.ListResourceBundle {
+    protected Object[][] getContents();
+}
+
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+    @com.google.android.gms.common.annotation.KeepName *;
+}
+
+-keepnames class * implements android.os.Parcelable {
+    public static final ** CREATOR;
+}
+
+# For better Crashlytics / HockeyApp resolution
+-renamesourcefileattribute SourceFile
+-keepattributes SourceFile,LineNumberTable
+
+# To skip running ProGuard on Crashlytics
+# -keep class com.crashlytics.** { *; }
+# -dontwarn com.crashlytics.**
+
+# To skip running ProGuard on HockeyApp dependencies
+# -libraryjars /Users/paulmcphee/iphone-apps/cocos2dx/cocos2d-x-2.2.6/samples/Cpp/PuzzleHound/proj.android/libs/HockeySDK-3.5.0.jar
+# -dontwarn android.provider.**
+# -keep class net.hockeyapp.** { *; }
+# -dontwarn net.hockeyapp.**
+
+# -dontskipnonpubliclibraryclassmembers
+# -keepattributes *Annotation*
+# -dontobfuscate
+
+# -injars /Users/paulmcphee/iphone-apps/cocos2dx/cocos2d-x-2.2.6/samples/Cpp/PuzzleHound/proj.android/libs_external/android-support-v4.jar
+# -injars /Users/paulmcphee/iphone-apps/cocos2dx/cocos2d-x-2.2.6/samples/Cpp/PuzzleHound/proj.android/libs_external/apache-mime4j-0.6.jar
+# -injars /Users/paulmcphee/iphone-apps/cocos2dx/cocos2d-x-2.2.6/samples/Cpp/PuzzleHound/proj.android/libs_external/HockeySDK-3.5.0.jar
+# -injars /Users/paulmcphee/iphone-apps/cocos2dx/cocos2d-x-2.2.6/samples/Cpp/PuzzleHound/proj.android/libs_external/httpmime-4.0.2.jar
+
+# -libraryjars /Users/paulmcphee/iphone-apps/cocos2dx/cocos2d-x-2.2.6/samples/Cpp/PuzzleHound/proj.android/libs/android-support-v4.jar
+# -libraryjars /Users/paulmcphee/iphone-apps/cocos2dx/cocos2d-x-2.2.6/samples/Cpp/PuzzleHound/proj.android/libs/apache-mime4j-0.6.jar
+# -libraryjars /Users/paulmcphee/iphone-apps/cocos2dx/cocos2d-x-2.2.6/samples/Cpp/PuzzleHound/proj.android/libs/HockeySDK-3.5.0.jar
+# -libraryjars /Users/paulmcphee/iphone-apps/cocos2dx/cocos2d-x-2.2.6/samples/Cpp/PuzzleHound/proj.android/libs/httpmime-4.0.2.jar
+# -libraryjars /Users/paulmcphee/android/sdk/platforms/android-19/android.jar
+
+# -libraryjars /Users/paulmcphee/iphone-apps/cocos2dx/cocos2d-x-2.2.6/samples/Cpp/PuzzleHound/proj.android/libs/httpmime-4.0.2.jar(!org.apache.http.annotation.NotThreadSafe.class)
+# -libraryjars /Users/paulmcphee/iphone-apps/cocos2dx/cocos2d-x-2.2.6/samples/Cpp/PuzzleHound/proj.android/libs/httpmime-4.0.2.jar(!org.apache.http.annotation.Immutable.class)
+# -libraryjars /Users/paulmcphee/iphone-apps/cocos2dx/cocos2d-x-2.2.6/samples/Cpp/PuzzleHound/proj.android/libs/apache-mime4j-0.6.jar(!org.apache.commons.logging.LogFactory.class)
+
+
+-keep public class javax.net.ssl.**
+-keepclassmembers public class javax.net.ssl.** { *; }
+-keep public class org.apache.http.**
+-keepclassmembers public class org.apache.http.** { *; }
+-keepclassmembers public class net.hockeyapp.android.UpdateFragment { *; }
+
+-keep class org.apache.http.**
+-keep interface org.apache.http.**
+-dontwarn org.apache.**
+
+
+# PuzzleWizard / Cocos2dx stuff
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+# -keep public class * extends org.cocos2dx.lib.Cocos2dxActivity
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+
+-keep public class com.cheekymammoth.puzzlewizard.puzzlewizard {
+	public static *;
+}
+
+-keep class org.cocos2dx.**
+-keep interface org.cocos2dx.**
+-keepclassmembers public class org.cocos2dx.lib.** { *; }
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclasseswithmembers class * {
+    public static void main(java.lang.String[]);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}

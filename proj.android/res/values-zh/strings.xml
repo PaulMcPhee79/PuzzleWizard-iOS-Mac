@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">谜题巫师</string>
+    <string name="shared_user_label">谜题巫师UID</string>
+    <string name="CM_LocaleKey">ZH</string>
+    <string name="DlgTitleLicenseFailed">许可检查失败</string>
+	<string name="MsgLicenseExpired">请连接到互联网，然后按重试许可的拼图精灵副本</string>
+	<string name="MsgLicenseNotice">请连接到互联网，在未来 [000] 分许可的拼图精灵副本</string>
+	<string name="ToastLicenseChecking">检查应用程序许可证&#8230;</string>
+	<string name="DlgBtnRetry">重试</string>
+	<string name="DlgBtnBuyNow">立即购买</string>
+	<string name="DlgBtnOK">接受</string>
+</resources>

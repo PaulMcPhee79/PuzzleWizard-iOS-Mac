@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  PuzzleWizard
+
+  Created by Cheeky Mammoth on 1/02/2014.
+
+*/
+
+"CFBundleDisplayName" = "パズルウィザード";
+"CFBundleName" = "パズルウィザード";
+"NSHumanReadableCopyright" = "版権 © 2015 Cheeky Mammoth Pty Ltd. 無断複写·転載を禁じます.";
+"CFBundleGetInfoString" = "パズルウィザード v1.0, 版権 © 2015 Cheeky Mammoth Pty Ltd.";

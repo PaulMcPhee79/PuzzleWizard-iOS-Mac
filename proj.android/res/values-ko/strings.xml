@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">퍼즐 위저드</string>
+    <string name="shared_user_label">퍼즐마법사UID</string>
+    <string name="CM_LocaleKey">KO</string>
+    <string name="DlgTitleLicenseFailed">라이센스 확인 실패</string>
+	<string name="MsgLicenseExpired">퍼즐 위저드 정품 라이선스를 인터넷과 키를 눌러 다시 시도 연결하십시오</string>
+	<string name="MsgLicenseNotice">다음에 인터넷에 연결하십시오 [000] 퍼즐 위저드 복사본을 허가하는 분</string>
+	<string name="ToastLicenseChecking">응용 프로그램 라이센스를 확인&#8230;</string>
+	<string name="DlgBtnRetry">다시 시도</string>
+	<string name="DlgBtnBuyNow">지금 구매</string>
+	<string name="DlgBtnOK">승인</string>
+</resources>

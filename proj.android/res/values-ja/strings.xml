@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">パズルウィザード</string>
+    <string name="shared_user_label">パズルウィザードUID</string>
+    <string name="CM_LocaleKey">JA</string>
+    <string name="DlgTitleLicenseFailed">ライセンスチェックに失敗しました</string>
+	<string name="MsgLicenseExpired">パズルウィザードのコピーをライセンスするためにインターネットを押すと再試行を接続してください</string>
+	<string name="MsgLicenseNotice">次の中でインターネットに接続してください [000] パズルウィザードのコピーをライセンスする分</string>
+	<string name="ToastLicenseChecking">アプリケーションライセンスの確認&#8230;</string>
+	<string name="DlgBtnRetry">リトライ</string>
+	<string name="DlgBtnBuyNow">今すぐ購入</string>
+	<string name="DlgBtnOK">オーケー</string>
+</resources>

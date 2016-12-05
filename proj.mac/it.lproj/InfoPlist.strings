@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  PuzzleWizard
+
+  Created by Cheeky Mammoth on 1/02/2014.
+
+*/
+
+"CFBundleDisplayName" = "Mago dei Rompicapi";
+"CFBundleName" = "MagoDeiRompicapi";
+"NSHumanReadableCopyright" = "Copyright © 2015 Cheeky Mammoth Pty Ltd. Tutti i Diritti Riservati.";
+"CFBundleGetInfoString" = "Mago dei Rompicapi v1.0, Copyright © 2015 Cheeky Mammoth Pty Ltd.";

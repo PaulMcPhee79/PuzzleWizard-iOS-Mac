@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B8BF9E81-35FD-4582-BA1C-B85FA365BABB}</ProjectGuid>
+    <RootNamespace>PuzzleHoundwin32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>PuzzleHound</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\..\cocos2dx;$(ProjectDir)..\..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\Classes;$(ProjectDir)..\..\..\..\CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GOD_MODE;WIN32;_DEBUG;_WINDOWS;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;libcocos2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\..\cocos2dx;$(ProjectDir)..\..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\..\cocos2dx\platform\third_party\win32\OGLES;..\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;libcocos2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\Events\EventDispatcher.cpp" />
+    <ClCompile Include="..\Classes\Extensions\Juggler.cpp" />
+    <ClCompile Include="..\Classes\Extensions\MovieClip.cpp" />
+    <ClCompile Include="..\Classes\Managers\GameSettings.cpp" />
+    <ClCompile Include="..\Classes\Managers\SpriteLayerManager.cpp" />
+    <ClCompile Include="..\Classes\Managers\TouchManager.cpp" />
+    <ClCompile Include="..\Classes\Prop\CMSprite.cpp" />
+    <ClCompile Include="..\Classes\Prop\CroppedProp.cpp" />
+    <ClCompile Include="..\Classes\Prop\Prop.cpp" />
+    <ClCompile Include="..\Classes\Prop\UIControls\MenuButton.cpp" />
+    <ClCompile Include="..\Classes\Prop\UIViews\MenuSubview.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Controllers\GameProgressController.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Controllers\PuzzleController.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Controllers\PuzzleOrganizer.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Controllers\ShieldManager.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Data\ColorFiller.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Data\GameProgress.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Data\HumanPlayer.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Data\Level.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Data\MirroredPlayer.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Data\Player.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Data\Puzzle.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Data\PuzzleTile.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Inputs\PathFinder.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Inputs\PlayerController.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Inputs\SearchNode.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\Inputs\TouchPad.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\LevelIcon.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\LevelMenu.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\MenuBuilder.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\MenuDialog.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\MenuDialogManager.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\MenuItem\MenuItem.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\PuzzlePage.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Menu\PuzzlePageEntry.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\AnimPlayerPiece.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\PuzzleRibbon.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\Shield.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\SolvedAnimation.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\TileConveyorBelt.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\Dissolver.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\TileRotator.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\TileShadow.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\TileSwapper.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\Effects\Twinkle.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\HUD\HUDCell.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\HUD\PlayerHUD.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\PlayerPiece.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\PuzzleBoard.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\StaticPlayerPiece.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\TileDecoration.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\Playfield\TilePiece.cpp" />
+    <ClCompile Include="..\Classes\Puzzle\View\PuzzleHelper.cpp" />
+    <ClCompile Include="..\Classes\SceneControllers\GameController.cpp" />
+    <ClCompile Include="..\Classes\SceneControllers\MenuController.cpp" />
+    <ClCompile Include="..\Classes\SceneControllers\PlayfieldController.cpp" />
+    <ClCompile Include="..\Classes\SceneControllers\SceneController.cpp" />
+    <ClCompile Include="..\Classes\SceneViews\MenuView.cpp" />
+    <ClCompile Include="..\Classes\SceneViews\PlayfieldView.cpp" />
+    <ClCompile Include="..\Classes\SceneViews\SceneView.cpp" />
+    <ClCompile Include="..\Classes\Utils\ByteTweener.cpp" />
+    <ClCompile Include="..\Classes\Utils\DeviceDetails.cpp" />
+    <ClCompile Include="..\Classes\Utils\FloatTweener.cpp" />
+    <ClCompile Include="..\Classes\Utils\IntTweener.cpp" />
+    <ClCompile Include="..\Classes\Utils\PoolIndexer.cpp" />
+    <ClCompile Include="..\Classes\Utils\ReusableCache.cpp" />
+    <ClCompile Include="..\Classes\Utils\SpriteColorer.cpp" />
+    <ClCompile Include="..\Classes\Utils\Transitions.cpp" />
+    <ClCompile Include="..\Classes\Utils\Utils.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\AppMacros.h" />
+    <ClInclude Include="..\Classes\Events\EventDispatcher.h" />
+    <ClInclude Include="..\Classes\Extensions\Juggler.h" />
+    <ClInclude Include="..\Classes\Extensions\MovieClip.h" />
+    <ClInclude Include="..\Classes\Interfaces\IAnimatable.h" />
+    <ClInclude Include="..\Classes\Interfaces\IEventListener.h" />
+    <ClInclude Include="..\Classes\Interfaces\IPlayerView.h" />
+    <ClInclude Include="..\Classes\Interfaces\IPuzzleView.h" />
+    <ClInclude Include="..\Classes\Interfaces\IReusable.h" />
+    <ClInclude Include="..\Classes\Interfaces\ISearchProvider.h" />
+    <ClInclude Include="..\Classes\Interfaces\ITileDecorator.h" />
+    <ClInclude Include="..\Classes\Interfaces\ITileView.h" />
+    <ClInclude Include="..\Classes\Managers\GameSettings.h" />
+    <ClInclude Include="..\Classes\Managers\SpriteLayerManager.h" />
+    <ClInclude Include="..\Classes\Managers\TouchManager.h" />
+    <ClInclude Include="..\Classes\Managers\TouchTypes.h" />
+    <ClInclude Include="..\Classes\Prop\CMSprite.h" />
+    <ClInclude Include="..\Classes\Prop\CroppedProp.h" />
+    <ClInclude Include="..\Classes\Prop\Prop.h" />
+    <ClInclude Include="..\Classes\Prop\UIControls\MenuButton.h" />
+    <ClInclude Include="..\Classes\Prop\UIViews\MenuSubview.h" />
+    <ClInclude Include="..\Classes\Puzzle\Controllers\GameProgressController.h" />
+    <ClInclude Include="..\Classes\Puzzle\Controllers\PuzzleController.h" />
+    <ClInclude Include="..\Classes\Puzzle\Controllers\PuzzleOrganizer.h" />
+    <ClInclude Include="..\Classes\Puzzle\Controllers\ShieldManager.h" />
+    <ClInclude Include="..\Classes\Puzzle\Data\ColorFiller.h" />
+    <ClInclude Include="..\Classes\Puzzle\Data\GameProgress.h" />
+    <ClInclude Include="..\Classes\Puzzle\Data\HumanPlayer.h" />
+    <ClInclude Include="..\Classes\Puzzle\Data\Level.h" />
+    <ClInclude Include="..\Classes\Puzzle\Data\MirroredPlayer.h" />
+    <ClInclude Include="..\Classes\Puzzle\Data\Player.h" />
+    <ClInclude Include="..\Classes\Puzzle\Data\Puzzle.h" />
+    <ClInclude Include="..\Classes\Puzzle\Data\PuzzleTile.h" />
+    <ClInclude Include="..\Classes\Puzzle\Inputs\PathFinder.h" />
+    <ClInclude Include="..\Classes\Puzzle\Inputs\PlayerController.h" />
+    <ClInclude Include="..\Classes\Puzzle\Inputs\SearchNode.h" />
+    <ClInclude Include="..\Classes\Puzzle\Inputs\TouchPad.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\LevelIcon.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\LevelMenu.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\MenuBuilder.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\MenuDialog.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\MenuDialogManager.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\MenuItem\MenuItem.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\PuzzlePage.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Menu\PuzzlePageEntry.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\AnimPlayerPiece.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\PuzzleRibbon.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\Shield.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\SolvedAnimation.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\TileConveyorBelt.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\Dissolver.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\TileRotator.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\TileShadow.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\TileSwapper.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\Effects\Twinkle.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\HUD\HUDCell.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\HUD\PlayerHUD.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\PlayerPiece.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\PuzzleBoard.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\StaticPlayerPiece.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\TileDecoration.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\Playfield\TilePiece.h" />
+    <ClInclude Include="..\Classes\Puzzle\View\PuzzleHelper.h" />
+    <ClInclude Include="..\Classes\SceneControllers\GameController.h" />
+    <ClInclude Include="..\Classes\SceneControllers\MenuController.h" />
+    <ClInclude Include="..\Classes\SceneControllers\PlayfieldController.h" />
+    <ClInclude Include="..\Classes\SceneControllers\SceneController.h" />
+    <ClInclude Include="..\Classes\SceneViews\MenuView.h" />
+    <ClInclude Include="..\Classes\SceneViews\PlayfieldView.h" />
+    <ClInclude Include="..\Classes\SceneViews\SceneView.h" />
+    <ClInclude Include="..\Classes\Utils\Astar.h" />
+    <ClInclude Include="..\Classes\Utils\ByteTweener.h" />
+    <ClInclude Include="..\Classes\Utils\CMTypes.h" />
+    <ClInclude Include="..\Classes\Utils\CMFileTypes.h" />
+    <ClInclude Include="..\Classes\Utils\DeviceDetails.h" />
+    <ClInclude Include="..\Classes\Utils\FloatTweener.h" />
+    <ClInclude Include="..\Classes\Utils\Fsa.h" />
+    <ClInclude Include="..\Classes\Utils\Globals.h" />
+    <ClInclude Include="..\Classes\Utils\IntTweener.h" />
+    <ClInclude Include="..\Classes\Utils\PoolIndexer.h" />
+    <ClInclude Include="..\Classes\Utils\ReusableCache.h" />
+    <ClInclude Include="..\Classes\Utils\SpriteColorer.h" />
+    <ClInclude Include="..\Classes\Utils\Transitions.h" />
+    <ClInclude Include="..\Classes\Utils\Utils.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\cocos2dx\proj.win32\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\CocosDenshion\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

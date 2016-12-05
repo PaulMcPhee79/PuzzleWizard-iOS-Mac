@@ -1,0 +1,59 @@
+com.cheekymammoth.puzzlewizard.CMBackupAgent
+com.cheekymammoth.puzzlewizard.CMBackupAgent: CMBackupAgent()
+com.cheekymammoth.puzzlewizard.R$drawable: int ic_launcher
+com.cheekymammoth.puzzlewizard.R$string: int CM_LocaleKey
+com.cheekymammoth.puzzlewizard.R$string: int CM_ToastLicense
+com.cheekymammoth.puzzlewizard.R$string: int app_id
+com.cheekymammoth.puzzlewizard.R$string: int app_name
+com.cheekymammoth.puzzlewizard.R$string: int com_crashlytics_android_build_id
+com.cheekymammoth.puzzlewizard.R$string: int shared_user_label
+com.cheekymammoth.puzzlewizard.puzzlewizard
+com.cheekymammoth.puzzlewizard.puzzlewizard: puzzlewizard()
+com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$LicenseDialogType: com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$LicenseDialogType[] values()
+com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$LicenseDialogType: com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$LicenseDialogType valueOf(java.lang.String)
+com.crashlytics.android.internal.U: com.crashlytics.android.internal.U[] values()
+com.crashlytics.android.internal.U: com.crashlytics.android.internal.U valueOf(java.lang.String)
+com.crashlytics.android.internal.aS: com.crashlytics.android.internal.aS[] values()
+com.crashlytics.android.internal.aS: com.crashlytics.android.internal.aS valueOf(java.lang.String)
+com.crashlytics.android.internal.ab: com.crashlytics.android.internal.ab[] values()
+com.crashlytics.android.internal.ab: com.crashlytics.android.internal.ab valueOf(java.lang.String)
+com.crashlytics.android.internal.ag: com.crashlytics.android.internal.ag[] values()
+com.crashlytics.android.internal.ag: com.crashlytics.android.internal.ag valueOf(java.lang.String)
+com.crashlytics.android.internal.an: com.crashlytics.android.internal.an[] values()
+com.crashlytics.android.internal.an: com.crashlytics.android.internal.an valueOf(java.lang.String)
+com.crashlytics.android.internal.av: com.crashlytics.android.internal.av[] values()
+com.crashlytics.android.internal.av: com.crashlytics.android.internal.av valueOf(java.lang.String)
+com.flurry.sdk.ej: com.flurry.sdk.ej[] values()
+com.flurry.sdk.ej: com.flurry.sdk.ej valueOf(java.lang.String)
+com.flurry.sdk.fe$a: com.flurry.sdk.fe$a[] values()
+com.flurry.sdk.fe$a: com.flurry.sdk.fe$a valueOf(java.lang.String)
+org.cocos2dx.lib.Cocos2dxAccelerometer
+org.cocos2dx.lib.Cocos2dxAccelerometer: void onSensorChanged(float,float,float,long)
+org.cocos2dx.lib.Cocos2dxActivity: Cocos2dxActivity()
+org.cocos2dx.lib.Cocos2dxBitmap
+org.cocos2dx.lib.Cocos2dxBitmap: void nativeInitBitmapDC(int,int,byte[])
+org.cocos2dx.lib.Cocos2dxETCLoader
+org.cocos2dx.lib.Cocos2dxETCLoader: void nativeSetTextureInfo(int,int,byte[],int)
+org.cocos2dx.lib.Cocos2dxEditText: void setCocos2dxGLSurfaceView(org.cocos2dx.lib.Cocos2dxGLSurfaceView)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void setDirtyRenderMode(int)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxGLSurfaceView getInstance()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void setCocos2dxRenderer(org.cocos2dx.lib.Cocos2dxRenderer)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: java.lang.String getContentText()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxEditText getCocos2dxEditText()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void setCocos2dxEditText(org.cocos2dx.lib.Cocos2dxEditText)
+org.cocos2dx.lib.Cocos2dxHelper
+org.cocos2dx.lib.Cocos2dxHelper: void nativeSetApkPath(java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper: void nativeSetEditTextDialogResult(byte[])
+org.cocos2dx.lib.Cocos2dxRenderer
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeTouchesBegin(int,float,float)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeTouchesEnd(int,float,float)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeTouchesMove(int[],float[],float[])
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeTouchesCancel(int[],float[],float[])
+org.cocos2dx.lib.Cocos2dxRenderer: boolean nativeKeyDown(int)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeRender()
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeInit(int,int)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeOnPause()
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeOnResume()
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeInsertText(java.lang.String)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeDeleteBackward()
+org.cocos2dx.lib.Cocos2dxRenderer: java.lang.String nativeGetContentText()

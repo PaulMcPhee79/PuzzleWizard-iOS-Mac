@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  PuzzleWizard
+
+  Created by Cheeky Mammoth on 1/02/2014.
+
+*/
+
+"CFBundleDisplayName" = "PuzzleMagicien";
+"CFBundleName" = "PuzzleMagicien";
+"NSHumanReadableCopyright" = "Droit d'Auteur © 2015 Cheeky Mammoth Pty Ltd. Tous Droits Réservés.";
+"CFBundleGetInfoString" = "Puzzle Magicien v1.0, Droit d'Auteur © 2015 Cheeky Mammoth Pty Ltd.";

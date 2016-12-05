@@ -1,0 +1,517 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.cheekymammoth.puzzlewizard.BuildConfig
+com.cheekymammoth.puzzlewizard.CMBackupAgent:
+    private static final java.lang.String kBackupFileName
+    private static final java.lang.String kBackupKey
+    18:20:public void requestBackup()
+com.cheekymammoth.puzzlewizard.CMEncrypter:
+    private static final java.lang.String TRANSFORMATION
+    private static final java.lang.String KEY_TRANSFORMATION
+    private static final java.lang.String SECRET_KEY_HASH_TRANSFORMATION
+    private static final java.lang.String CHARSET
+    private final javax.crypto.Cipher writer
+    private final javax.crypto.Cipher reader
+    private final javax.crypto.Cipher keyWriter
+    28:42:public CMEncrypter(android.content.Context,java.lang.String)
+    46:52:protected void initCiphers(java.lang.String)
+    55:57:protected javax.crypto.spec.IvParameterSpec getIv()
+    61:62:protected javax.crypto.spec.SecretKeySpec getSecretKey(java.lang.String)
+    66:69:protected byte[] createKeyBytes(java.lang.String)
+    73:76:public java.lang.String encryptValue(java.lang.String)
+    80:83:public java.lang.String decryptValue(java.lang.String)
+    89:96:protected java.lang.String encrypt(java.lang.String,javax.crypto.Cipher)
+    100:107:protected java.lang.String decrypt(java.lang.String)
+    113:116:private static byte[] convert(javax.crypto.Cipher,byte[])
+com.cheekymammoth.puzzlewizard.CMEncrypter$CMEncrypterException
+com.cheekymammoth.puzzlewizard.R
+com.cheekymammoth.puzzlewizard.R$attr
+com.cheekymammoth.puzzlewizard.R$drawable
+com.cheekymammoth.puzzlewizard.R$string
+com.cheekymammoth.puzzlewizard.puzzlewizard:
+    private static final java.lang.String TAG
+    private static final java.lang.String GPFU
+    private static final java.lang.String GPAH
+    private static final java.lang.String BASE64_PUBLIC_KEY
+    private android.os.Handler mHandler
+    private com.google.android.vending.licensing.LicenseCheckerCallback mLicenseCheckerCallback
+    private static final int kLicenseInProgress
+    private static final int kLicenseDenied
+    private static final int kLicenseApproved
+    private static final int kLicenseProvisionalRetry
+    private static final int kLicenseProvisionalError
+    private static final int kLicenseDialogOK
+    private static final int kLicenseDialogRetry
+    private static final int kLicenseDialogBuy
+    139:143:public java.lang.String generateGooglePlayLicenseKey()
+    147:153:public boolean validateGooglePlayLicenseKey(java.lang.String)
+    158:158:public int getLicensed()
+    162:163:public void setLicensed(int)
+    166:166:public int getLicensedExpirationMins()
+    170:171:public void setLicensedExpirationMins(int)
+    174:205:public void performGooglePlayLicenseCheck()
+    208:211:public void requestBackup()
+    214:221:public void enableKeepScreenOn(boolean)
+    228:230:public static void backupGameProgress()
+    233:245:public static void openMarketPlaceToRateTheGame()
+    248:260:public static void openURL(java.lang.String)
+    263:283:public static int getDefaultLocale()
+    288:293:public static int getDisplayWidthInPixels()
+    298:303:public static int getDisplayHeightInPixels()
+    308:313:public static float getDisplayXdpi()
+    318:323:public static float getDisplayYdpi()
+    328:331:public static java.lang.String getLocaleFromResStrings()
+    335:337:public static void keepScreenOn()
+    340:342:public static void allowScreenOff()
+    345:354:private static com.cheekymammoth.puzzlewizard.CMEncrypter getEncrypter()
+    358:368:public static java.lang.String encryptString(java.lang.String)
+    372:382:public static java.lang.String decryptString(java.lang.String)
+    387:389:public static void FL_logEvent(java.lang.String)
+    392:398:public static void FL_logEvent(java.lang.String,java.lang.String[])
+    402:404:public static void doGooglePlayLicenseCheck()
+    407:407:public static int getGooglePlayLicenseStatus()
+    411:413:public static void setGooglePlayLicenseExpiration(int)
+    416:422:public static boolean verifyGooglePlayLicenseKey(java.lang.String)
+    426:429:public static java.lang.String getGooglePlayLicenseKey()
+    434:435:private void doCheck()
+    438:447:public static void showGooglePlayLicenseDialog(java.lang.String)
+    87:87:static synthetic void access$0(com.cheekymammoth.puzzlewizard.puzzlewizard,int)
+    61:61:static synthetic com.cheekymammoth.puzzlewizard.puzzlewizard access$1()
+    75:75:static synthetic android.os.Handler access$2(com.cheekymammoth.puzzlewizard.puzzlewizard)
+    75:75:static synthetic void access$3(com.cheekymammoth.puzzlewizard.puzzlewizard,android.os.Handler)
+    77:77:static synthetic void access$4(com.cheekymammoth.puzzlewizard.puzzlewizard,com.google.android.vending.licensing.LicenseCheckerCallback)
+    67:67:static synthetic byte[] access$5()
+    76:76:static synthetic void access$6(com.cheekymammoth.puzzlewizard.puzzlewizard,com.google.android.vending.licensing.LicenseChecker)
+    432:432:static synthetic void access$7(com.cheekymammoth.puzzlewizard.puzzlewizard)
+com.cheekymammoth.puzzlewizard.puzzlewizard$1
+com.cheekymammoth.puzzlewizard.puzzlewizard$CMLicenseChecker
+com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog
+com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$1
+com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$2
+com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$3
+com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$4
+com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$LicenseDialogType
+com.crashlytics.android.CrashTest
+com.crashlytics.android.Crashlytics:
+    public static final java.lang.String TAG
+    156:169:public static void logException(java.lang.Throwable)
+    175:177:static void a(java.lang.String)
+    198:199:public static void log(java.lang.String)
+    202:210:private static void a(int,java.lang.String,java.lang.String)
+    226:230:public static void log(int,java.lang.String,java.lang.String)
+    258:259:public static void setUserIdentifier(java.lang.String)
+    267:268:public static void setUserName(java.lang.String)
+    276:277:public static void setUserEmail(java.lang.String)
+    283:284:public static void setApplicationInstallationIdentifier(java.lang.String)
+    295:315:public static void setString(java.lang.String,java.lang.String)
+    323:324:public static void setBool(java.lang.String,boolean)
+    332:333:public static void setDouble(java.lang.String,double)
+    341:342:public static void setFloat(java.lang.String,float)
+    350:351:public static void setInt(java.lang.String,int)
+    359:360:public static void setLong(java.lang.String,long)
+    373:374:public final void setListener(com.crashlytics.android.CrashlyticsListener)
+    382:383:public final void setDebugMode(boolean)
+    391:391:public final boolean getDebugMode()
+    399:431:public static void setPinningInfoProvider(com.crashlytics.android.PinningInfoProvider)
+    434:434:public static com.crashlytics.android.PinningInfoProvider getPinningInfoProvider()
+    447:450:public final boolean verifyPinning(java.net.URL)
+    488:489:public final void crash()
+    729:735:private static java.lang.String c(java.lang.String)
+com.crashlytics.android.CrashlyticsMissingDependencyException:
+    private static final long serialVersionUID
+com.crashlytics.android.P
+com.crashlytics.android.PinningInfoProvider:
+    public abstract java.io.InputStream getKeyStoreStream()
+    public abstract java.lang.String getKeyStorePassword()
+    public abstract java.lang.String[] getPins()
+com.crashlytics.android.i:
+    private static final long serialVersionUID
+com.crashlytics.android.internal.A
+com.crashlytics.android.internal.B:
+    81:81:public java.lang.String getVersion()
+    148:151:public void onException(com.crashlytics.android.internal.ae)
+com.crashlytics.android.internal.M:
+    98:100:public final void b(java.lang.String)
+com.crashlytics.android.internal.Z:
+    748:753:public static java.lang.String a(int)
+    801:815:public static java.lang.String b(int)
+com.crashlytics.android.internal.aB:
+    private static final long serialVersionUID
+com.crashlytics.android.internal.ae
+com.crashlytics.android.internal.ao:
+    495:509:public final synchronized void c()
+    513:520:private synchronized void d()
+com.crashlytics.android.internal.at:
+    47:51:public void a(com.crashlytics.android.internal.aE)
+    60:60:public com.crashlytics.android.internal.aw a(com.crashlytics.android.internal.av,java.lang.String)
+    54:56:private synchronized void a()
+com.crashlytics.android.internal.b:
+    public static final java.lang.String a
+    125:126:public b()
+    134:135:public b(java.lang.String)
+    258:292:public void b(java.lang.Object)
+    304:325:public void c(java.lang.Object)
+    342:359:private void a()
+    398:398:private java.util.Set a(java.lang.Class)
+com.crashlytics.android.internal.e
+com.crashlytics.android.internal.f
+com.crashlytics.android.internal.g:
+    73:74:public final void b()
+com.crashlytics.android.internal.h:
+    69:70:public final void b()
+com.crashlytics.android.internal.p:
+    public abstract java.lang.String getVersion()
+com.crashlytics.android.internal.r
+com.crashlytics.android.internal.s
+com.crashlytics.android.internal.t:
+    public abstract void a(int,java.lang.String,java.lang.String,boolean)
+com.crashlytics.android.internal.v:
+    232:236:public final void a(boolean)
+    311:312:public final void a(java.lang.String)
+com.crashlytics.android.internal.y:
+    68:68:public final void a(int,java.lang.String,java.lang.String,boolean)
+com.crashlytics.android.internal.z:
+    35:42:public final void c(java.lang.Object)
+    13:13:static synthetic void a(com.crashlytics.android.internal.z,java.lang.Object)
+com.crashlytics.android.j
+com.crashlytics.android.k
+com.crashlytics.android.v:
+    357:367:final void a(java.lang.Thread,java.lang.Throwable)
+    373:385:final void a(long,java.lang.String)
+    532:576:static void a(com.crashlytics.android.internal.ao,int,long,java.lang.String)
+    603:634:private boolean k()
+    66:66:static synthetic void b(com.crashlytics.android.v,java.util.Date,java.lang.Thread,java.lang.Throwable)
+    66:66:static synthetic com.crashlytics.android.internal.ao d(com.crashlytics.android.v)
+    66:66:static synthetic boolean e(com.crashlytics.android.v)
+com.crashlytics.android.x
+com.flurry.android.Constants
+com.flurry.android.FlurryAgent:
+    56:66:public static void setVersionName(java.lang.String)
+    82:82:public static java.lang.String getReleaseVersion()
+    91:97:public static void setReportLocation(boolean)
+    104:113:public static void setLogEnabled(boolean)
+    120:125:public static void setLogLevel(int)
+    142:152:public static void setContinueSessionMillis(long)
+    159:164:public static void setLogEvents(boolean)
+    172:177:public static void setUseHttps(boolean)
+    181:182:public static boolean getUseHttps()
+    326:339:public static void logEvent(java.lang.String)
+    360:377:public static void logEvent(java.lang.String,java.util.Map)
+    389:402:public static void logEvent(java.lang.String,boolean)
+    416:433:public static void logEvent(java.lang.String,java.util.Map,boolean)
+    441:454:public static void endTimedEvent(java.lang.String)
+    466:483:public static void endTimedEvent(java.lang.String,java.util.Map)
+    497:518:public static void onError(java.lang.String,java.lang.String,java.lang.String)
+    550:563:public static void onEvent(java.lang.String)
+    572:589:public static void onEvent(java.lang.String,java.util.Map)
+    601:610:public static void onPageView()
+    615:620:public static void setReportUrl(java.lang.String)
+    633:639:public static void setLocationCriteria(android.location.Criteria)
+    653:667:public static void setAge(int)
+    675:688:public static void setGender(byte)
+    697:707:public static void setUserId(java.lang.String)
+    713:714:static void setInternalLoggingEnabled(boolean)
+com.flurry.android.InstallReceiver
+com.flurry.sdk.bx:
+    127:127:int c()
+    131:131:int d()
+    135:135:int e()
+    139:139:java.lang.String f()
+    144:154:public java.lang.String g()
+    237:241:public void a(java.lang.String)
+    244:248:public void a(java.lang.String,java.util.Map)
+    251:255:public void a(java.lang.String,boolean)
+    258:262:public void a(java.lang.String,java.util.Map,boolean)
+    265:269:public void b(java.lang.String)
+    272:276:public void b(java.lang.String,java.util.Map)
+    280:293:public void a(java.lang.String,java.lang.String,java.lang.String)
+    303:307:public void c(java.lang.String)
+    310:314:public void c(java.lang.String,java.util.Map)
+    317:321:public void i()
+    359:365:public java.lang.String j()
+    369:375:public java.lang.String k()
+    379:385:public java.lang.String l()
+    443:444:public void a(boolean)
+com.flurry.sdk.by:
+    58:62:public synchronized void a(java.lang.String)
+    89:90:private void c()
+com.flurry.sdk.cb:
+    22:34:public cb(int,java.lang.String,java.util.Map,long,boolean)
+    47:47:public boolean a(java.lang.String)
+    59:79:public void a(java.util.Map)
+    83:83:public java.util.Map c()
+    88:89:public void b(java.util.Map)
+    93:93:public int d()
+com.flurry.sdk.cl:
+    447:448:public synchronized void g()
+    455:504:public synchronized void a(java.lang.String,java.util.Map,boolean)
+    508:544:public synchronized void a(java.lang.String,java.util.Map)
+    718:718:private int B()
+com.flurry.sdk.eg:
+    58:58:public android.content.pm.PackageManager c()
+com.flurry.sdk.ek
+com.flurry.sdk.el:
+    49:60:public static android.content.pm.ApplicationInfo b(android.content.Context)
+    70:71:public static java.lang.String d(android.content.Context)
+    76:77:public static android.os.Bundle e(android.content.Context)
+com.flurry.sdk.er:
+    53:54:public int b()
+com.flurry.sdk.es
+com.flurry.sdk.es$1
+com.flurry.sdk.es$1$1
+com.flurry.sdk.es$1$2
+com.flurry.sdk.es$2
+com.flurry.sdk.es$2$1
+com.flurry.sdk.es$a
+com.flurry.sdk.et:
+    83:105:public static void a(java.io.File,java.lang.String)
+com.flurry.sdk.ew:
+    34:34:public static org.apache.http.client.HttpClient a(org.apache.http.params.HttpParams)
+com.flurry.sdk.ex:
+    35:36:public static void a()
+    41:42:public static void b()
+    64:65:public static void a(int)
+    68:69:public static void a(boolean)
+    76:77:public static void a(java.lang.String,java.lang.String,java.lang.Throwable)
+    96:97:public static void c(java.lang.String,java.lang.String)
+    104:105:public static void d(java.lang.String,java.lang.String)
+com.flurry.sdk.fe:
+    202:222:public com.flurry.sdk.fe$a e()
+com.flurry.sdk.fe$a
+com.flurry.sdk.fg
+com.flurry.sdk.fh:
+    68:73:public static java.lang.String b(java.lang.String)
+    81:86:public static java.lang.String c(java.lang.String)
+    126:135:public static java.lang.String a(byte[])
+    141:147:public static boolean a(long)
+    193:195:public static boolean a(android.content.Intent)
+    199:205:public static boolean b(android.content.Intent)
+    209:209:public static java.lang.String e(java.lang.String)
+    214:226:public static java.util.Map f(java.lang.String)
+com.flurry.sdk.fj
+com.google.android.vending.licensing.AESObfuscator
+com.google.android.vending.licensing.APKExpansionPolicy
+com.google.android.vending.licensing.ILicenseResultListener$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_verifyLicense
+com.google.android.vending.licensing.ILicenseResultListener$Stub$Proxy:
+    79:79:public java.lang.String getInterfaceDescriptor()
+com.google.android.vending.licensing.ILicensingService$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_checkLicense
+    19:22:public ILicensingService$Stub()
+    40:40:public android.os.IBinder asBinder()
+com.google.android.vending.licensing.ILicensingService$Stub$Proxy:
+    79:79:public java.lang.String getInterfaceDescriptor()
+com.google.android.vending.licensing.LicenseChecker:
+    private static final java.lang.String TAG
+    private static final java.lang.String KEY_FACTORY_ALGORITHM
+    private static final int TIMEOUT_MS
+    private static final boolean DEBUG_LICENSE_ERROR
+    private final java.lang.String mPackageName
+    private final java.lang.String mVersionCode
+    89:98:public LicenseChecker(android.content.Context,com.google.android.vending.licensing.Policy,java.lang.String)
+    109:121:private static java.security.PublicKey generatePublicKey(java.lang.String)
+    139:173:public synchronized void checkAccess(com.google.android.vending.licensing.LicenseCheckerCallback)
+    332:332:private int generateNonce()
+    344:348:private static java.lang.String getVersionCode(android.content.Context,java.lang.String)
+com.google.android.vending.licensing.LicenseChecker$ResultListener:
+    private static final int ERROR_CONTACTING_SERVER
+    private static final int ERROR_INVALID_PACKAGE_NAME
+    private static final int ERROR_NON_MATCHING_UID
+com.google.android.vending.licensing.LicenseCheckerCallback:
+    public static final int ERROR_INVALID_PACKAGE_NAME
+    public static final int ERROR_NON_MATCHING_UID
+    public static final int ERROR_NOT_MARKET_MANAGED
+    public static final int ERROR_CHECK_IN_PROGRESS
+    public static final int ERROR_INVALID_PUBLIC_KEY
+    public static final int ERROR_MISSING_PERMISSION
+com.google.android.vending.licensing.LicenseValidator:
+    private static final java.lang.String TAG
+    private static final int LICENSED
+    private static final int NOT_LICENSED
+    private static final int LICENSED_OLD_KEY
+    private static final int ERROR_NOT_MARKET_MANAGED
+    private static final int ERROR_SERVER_FAILURE
+    private static final int ERROR_OVER_QUOTA
+    private static final int ERROR_CONTACTING_SERVER
+    private static final int ERROR_INVALID_PACKAGE_NAME
+    private static final int ERROR_NON_MATCHING_UID
+    private static final java.lang.String SIGNATURE_ALGORITHM
+    57:65:LicenseValidator(com.google.android.vending.licensing.Policy,com.google.android.vending.licensing.DeviceLimiter,com.google.android.vending.licensing.LicenseCheckerCallback,int,java.lang.String,java.lang.String)
+com.google.android.vending.licensing.NullDeviceLimiter
+com.google.android.vending.licensing.Obfuscator
+com.google.android.vending.licensing.Policy:
+    public static final int LICENSED
+    public static final int NOT_LICENSED
+    public static final int RETRY
+com.google.android.vending.licensing.PreferenceObfuscator
+com.google.android.vending.licensing.ServerManagedPolicy
+com.google.android.vending.licensing.StrictPolicy
+com.google.android.vending.licensing.ValidationException
+com.google.android.vending.licensing.util.Base64:
+    public static final boolean ENCODE
+    public static final boolean DECODE
+    private static final byte EQUALS_SIGN
+    private static final byte NEW_LINE
+    private static final byte WHITE_SPACE_ENC
+    private static final byte EQUALS_SIGN_ENC
+    210:234:private static byte[] encode3to4(byte[],int,int,byte[],int,byte[])
+    247:247:public static java.lang.String encode(byte[])
+    258:258:public static java.lang.String encodeWebSafe(byte[],boolean)
+    274:286:public static java.lang.String encode(byte[],int,int,byte[],boolean)
+    301:345:public static byte[] encode(byte[],int,int,byte[],int)
+    431:432:public static byte[] decodeWebSafe(java.lang.String)
+    445:445:public static byte[] decode(byte[])
+    458:458:public static byte[] decodeWebSafe(byte[])
+    489:489:public static byte[] decodeWebSafe(byte[],int,int)
+com.google.android.vending.licensing.util.Base64DecoderException:
+    private static final long serialVersionUID
+org.cocos2dx.lib.Cocos2dxAccelerometer:
+    78:84:public void setInterval(float)
+org.cocos2dx.lib.Cocos2dxActivity:
+    53:53:public static android.content.Context getContext()
+    97:101:public void showDialog(java.lang.String,java.lang.String)
+    105:109:public void showEditTextDialog(java.lang.String,java.lang.String,int,int,int,int)
+org.cocos2dx.lib.Cocos2dxBitmap:
+    private static final int HORIZONTALALIGN_LEFT
+    private static final int HORIZONTALALIGN_RIGHT
+    private static final int HORIZONTALALIGN_CENTER
+    private static final int VERTICALALIGN_TOP
+    private static final int VERTICALALIGN_BOTTOM
+    private static final int VERTICALALIGN_CENTER
+    44:44:public Cocos2dxBitmap()
+    private static native void nativeInitBitmapDC(int,int,byte[])
+    97:102:public static void createTextBitmap(java.lang.String,java.lang.String,int,int,int,int)
+    111:192:public static void createTextBitmapShadowStroke(java.lang.String,java.lang.String,int,float,float,float,int,int,int,boolean,float,float,float,boolean,float,float,float,float)
+    196:231:private static android.graphics.Paint newPaint(java.lang.String,int,int)
+    236:257:private static org.cocos2dx.lib.Cocos2dxBitmap$TextProperty computeTextProperty(java.lang.String,int,int,android.graphics.Paint)
+    262:276:private static int computeX(java.lang.String,int,int)
+    282:301:private static int computeY(android.graphics.Paint$FontMetricsInt,int,int,int)
+    310:359:private static java.lang.String[] splitString(java.lang.String,int,int,android.graphics.Paint)
+    364:406:private static java.util.LinkedList divideStringWithMaxWidth(java.lang.String,int,android.graphics.Paint)
+    411:437:private static java.lang.String refactorString(java.lang.String)
+    441:448:private static void initNativeObject(android.graphics.Bitmap)
+    451:460:private static byte[] getPixels(android.graphics.Bitmap)
+    464:484:private static int getFontSizeAccordingHeight(int)
+    489:497:private static java.lang.String getStringWithEllipsis(java.lang.String,float,float)
+org.cocos2dx.lib.Cocos2dxBitmap$TextProperty
+org.cocos2dx.lib.Cocos2dxETCLoader:
+    private static final java.lang.String ASSETS_PATH
+    36:36:public Cocos2dxETCLoader()
+    41:102:public static boolean loadTexture(java.lang.String)
+    private static native void nativeSetTextureInfo(int,int,byte[],int)
+org.cocos2dx.lib.Cocos2dxEditText:
+    51:52:public Cocos2dxEditText(android.content.Context,android.util.AttributeSet)
+    55:56:public Cocos2dxEditText(android.content.Context,android.util.AttributeSet,int)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView:
+    private static final int HANDLER_OPEN_IME_KEYBOARD
+    private static final int HANDLER_CLOSE_IME_KEYBOARD
+    70:73:public Cocos2dxGLSurfaceView(android.content.Context,android.util.AttributeSet)
+    119:122:public static void Cocos2dxSetDirtyRender20()
+    125:128:public static void Cocos2dxSetDirtyRender30()
+    363:367:public static void openIMEKeyboard()
+    370:373:public static void closeIMEKeyboard()
+    394:415:private static void dumpMotionEvent(android.view.MotionEvent)
+org.cocos2dx.lib.Cocos2dxHandler:
+    public static final int HANDLER_SHOW_DIALOG
+    public static final int HANDLER_SHOW_EDITBOX_DIALOG
+org.cocos2dx.lib.Cocos2dxHandler$DialogMessage:
+    112:115:public Cocos2dxHandler$DialogMessage(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxHandler$EditBoxMessage:
+    126:133:public Cocos2dxHandler$EditBoxMessage(java.lang.String,java.lang.String,int,int,int,int)
+org.cocos2dx.lib.Cocos2dxHelper:
+    private static final java.lang.String PREFS_NAME
+    39:39:public Cocos2dxHelper()
+    98:98:public static java.lang.String getCocos2dxPackageName()
+    102:102:public static java.lang.String getCocos2dxWritablePath()
+    106:106:public static java.lang.String getCurrentLanguage()
+    110:110:public static java.lang.String getDeviceModel()
+    114:114:public static android.content.res.AssetManager getAssetManager()
+    118:120:public static void enableAccelerometer()
+    124:125:public static void setAccelerometerInterval(float)
+    128:130:public static void disableAccelerometer()
+    133:134:public static void preloadBackgroundMusic(java.lang.String)
+    137:138:public static void playBackgroundMusic(java.lang.String,boolean)
+    141:142:public static void resumeBackgroundMusic()
+    145:146:public static void pauseBackgroundMusic()
+    149:150:public static void stopBackgroundMusic()
+    153:154:public static void rewindBackgroundMusic()
+    157:157:public static boolean isBackgroundMusicPlaying()
+    161:161:public static boolean didBackgroundMusicComplete()
+    165:165:public static float getBackgroundMusicVolume()
+    169:170:public static void setBackgroundMusicVolume(float)
+    173:174:public static void preloadEffect(java.lang.String)
+    177:177:public static int playEffect(java.lang.String,boolean)
+    181:182:public static void resumeEffect(int)
+    185:186:public static void pauseEffect(int)
+    189:190:public static void stopEffect(int)
+    193:193:public static float getEffectsVolume()
+    197:198:public static void setEffectsVolume(float)
+    201:202:public static void unloadEffect(java.lang.String)
+    205:206:public static void pauseAllEffects()
+    209:210:public static void resumeAllEffects()
+    213:214:public static void stopAllEffects()
+    217:219:public static void end()
+    234:235:public static void terminateProcess()
+    238:239:private static void showDialog(java.lang.String,java.lang.String)
+    242:243:private static void showEditTextDialog(java.lang.String,java.lang.String,int,int,int,int)
+    262:276:public static int getDPI()
+    284:285:public static boolean getBoolForKey(java.lang.String,boolean)
+    289:290:public static int getIntegerForKey(java.lang.String,int)
+    294:295:public static float getFloatForKey(java.lang.String,float)
+    300:301:public static double getDoubleForKey(java.lang.String,double)
+    305:306:public static java.lang.String getStringForKey(java.lang.String,java.lang.String)
+    310:314:public static void setBoolForKey(java.lang.String,boolean)
+    317:321:public static void setIntegerForKey(java.lang.String,int)
+    324:328:public static void setFloatForKey(java.lang.String,float)
+    332:336:public static void setDoubleForKey(java.lang.String,double)
+    339:343:public static void setStringForKey(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper$Cocos2dxHelperListener:
+    public abstract void showDialog(java.lang.String,java.lang.String)
+    public abstract void showEditTextDialog(java.lang.String,java.lang.String,int,int,int,int)
+org.cocos2dx.lib.Cocos2dxLocalStorage
+org.cocos2dx.lib.Cocos2dxLocalStorage$DBOpenHelper
+org.cocos2dx.lib.Cocos2dxMusic:
+    75:85:public void preloadBackgroundMusic(java.lang.String)
+    88:123:public void playBackgroundMusic(java.lang.String,boolean)
+    126:133:public void stopBackgroundMusic()
+    136:140:public void pauseBackgroundMusic()
+    143:147:public void resumeBackgroundMusic()
+    150:163:public void rewindBackgroundMusic()
+    166:174:public boolean isBackgroundMusicPlaying()
+    180:182:public boolean didBackgroundMusicComplete()
+    191:193:public void end()
+    196:199:public float getBackgroundVolume()
+    204:216:public void setBackgroundVolume(float)
+    235:256:private android.media.MediaPlayer createMediaplayer(java.lang.String)
+    260:264:private void releaseBackgroundMediaPlayer()
+org.cocos2dx.lib.Cocos2dxRenderer:
+    private static final long NANOSECONDSPERSECOND
+    private static final long NANOSECONDSPERMICROSECOND
+    58:59:public static void setAnimationInterval(double)
+org.cocos2dx.lib.Cocos2dxSound:
+    private static final java.lang.String TAG
+    private static final int MAX_SIMULTANEOUS_STREAMS_DEFAULT
+    private static final float SOUND_RATE
+    private static final int SOUND_PRIORITY
+    private static final int SOUND_QUALITY
+    private static final int INVALID_SOUND_ID
+    private static final int INVALID_STREAM_ID
+    107:117:public int preloadEffect(java.lang.String)
+    122:136:public void unloadEffect(java.lang.String)
+    139:169:public int playEffect(java.lang.String,boolean)
+    173:182:public void stopEffect(int)
+    185:186:public void pauseEffect(int)
+    189:190:public void resumeEffect(int)
+    193:194:public void pauseAllEffects()
+    199:208:public void resumeAllEffects()
+    213:225:public void stopAllEffects()
+    228:228:public float getEffectsVolume()
+    233:252:public void setEffectsVolume(float)
+    255:264:public void end()
+    267:285:public int createSoundIDFromAsset(java.lang.String)
+org.cocos2dx.lib.Cocos2dxSound$SoundInfoForLoadedCompleted:
+    final synthetic org.cocos2dx.lib.Cocos2dxSound this$0
+    312:316:public Cocos2dxSound$SoundInfoForLoadedCompleted(org.cocos2dx.lib.Cocos2dxSound,java.lang.String,int,boolean)
+org.cocos2dx.lib.Cocos2dxTypefaces

@@ -1,0 +1,769 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.cheekymammoth.puzzlewizard.CMBackupAgent
+com.cheekymammoth.puzzlewizard.CMBackupAgent: CMBackupAgent()
+com.cheekymammoth.puzzlewizard.R$drawable: int ic_action_bar
+com.cheekymammoth.puzzlewizard.R$drawable: int ic_launcher
+com.cheekymammoth.puzzlewizard.R$drawable: int ic_notification
+com.cheekymammoth.puzzlewizard.R$drawable: int ic_small
+com.cheekymammoth.puzzlewizard.R$string: int CM_LocaleKey
+com.cheekymammoth.puzzlewizard.R$string: int DlgBtnBuyNow
+com.cheekymammoth.puzzlewizard.R$string: int DlgBtnOK
+com.cheekymammoth.puzzlewizard.R$string: int DlgBtnRetry
+com.cheekymammoth.puzzlewizard.R$string: int DlgTitleLicenseFailed
+com.cheekymammoth.puzzlewizard.R$string: int MsgLicenseExpired
+com.cheekymammoth.puzzlewizard.R$string: int MsgLicenseNotice
+com.cheekymammoth.puzzlewizard.R$string: int ToastLicenseChecking
+com.cheekymammoth.puzzlewizard.R$string: int app_id
+com.cheekymammoth.puzzlewizard.R$string: int app_name
+com.cheekymammoth.puzzlewizard.R$string: int com_crashlytics_android_build_id
+com.cheekymammoth.puzzlewizard.R$string: int shared_user_label
+com.cheekymammoth.puzzlewizard.puzzlewizard
+com.cheekymammoth.puzzlewizard.puzzlewizard: puzzlewizard()
+com.cheekymammoth.puzzlewizard.puzzlewizard: void setUpBreakpad(java.lang.String)
+com.cheekymammoth.puzzlewizard.puzzlewizard: void nativeCrash()
+com.cheekymammoth.puzzlewizard.puzzlewizard: void onNativeCrashClicked(android.view.View)
+com.cheekymammoth.puzzlewizard.puzzlewizard: void onCrashClicked(android.view.View)
+com.cheekymammoth.puzzlewizard.puzzlewizard: void backupGameProgress()
+com.cheekymammoth.puzzlewizard.puzzlewizard: void openMarketPlaceToRateTheGame()
+com.cheekymammoth.puzzlewizard.puzzlewizard: void openURL(java.lang.String)
+com.cheekymammoth.puzzlewizard.puzzlewizard: int getDefaultLocale()
+com.cheekymammoth.puzzlewizard.puzzlewizard: int getDisplayWidthInPixels()
+com.cheekymammoth.puzzlewizard.puzzlewizard: int getDisplayHeightInPixels()
+com.cheekymammoth.puzzlewizard.puzzlewizard: float getDisplayXdpi()
+com.cheekymammoth.puzzlewizard.puzzlewizard: float getDisplayYdpi()
+com.cheekymammoth.puzzlewizard.puzzlewizard: java.lang.String getLocaleFromResStrings()
+com.cheekymammoth.puzzlewizard.puzzlewizard: void keepScreenOn()
+com.cheekymammoth.puzzlewizard.puzzlewizard: void allowScreenOff()
+com.cheekymammoth.puzzlewizard.puzzlewizard: java.lang.String addToRewards(java.lang.String)
+com.cheekymammoth.puzzlewizard.puzzlewizard: java.lang.String markMasterPuzzler(java.lang.String)
+com.cheekymammoth.puzzlewizard.puzzlewizard: void FL_logEvent(java.lang.String)
+com.cheekymammoth.puzzlewizard.puzzlewizard: void FL_logEvent(java.lang.String,java.lang.String[])
+com.cheekymammoth.puzzlewizard.puzzlewizard: void congratulateUser()
+com.cheekymammoth.puzzlewizard.puzzlewizard: int getPuzzleCompletedCount()
+com.cheekymammoth.puzzlewizard.puzzlewizard: void setStatLongestPuzzleDuration(int)
+com.cheekymammoth.puzzlewizard.puzzlewizard: boolean isPlayerMasterPuzzler(java.lang.String)
+com.cheekymammoth.puzzlewizard.puzzlewizard: java.lang.String getMasterPuzzlerKey()
+com.cheekymammoth.puzzlewizard.puzzlewizard: void showGooglePlayLicenseDialog(java.lang.String)
+com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$LicenseDialogType: com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$LicenseDialogType[] values()
+com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$LicenseDialogType: com.cheekymammoth.puzzlewizard.puzzlewizard$LicenseDialog$LicenseDialogType valueOf(java.lang.String)
+net.hockeyapp.android.ExpiryInfoActivity
+net.hockeyapp.android.FeedbackActivity
+net.hockeyapp.android.FeedbackActivity: void onClick(android.view.View)
+net.hockeyapp.android.LoginActivity
+net.hockeyapp.android.LoginActivity: void onClick(android.view.View)
+net.hockeyapp.android.PaintActivity
+net.hockeyapp.android.UpdateActivity
+net.hockeyapp.android.UpdateActivity: UpdateActivity()
+net.hockeyapp.android.UpdateActivity: void onClick(android.view.View)
+net.hockeyapp.android.UpdateFragment: net.hockeyapp.android.tasks.DownloadFileTask downloadTask
+net.hockeyapp.android.UpdateFragment: org.json.JSONArray versionInfo
+net.hockeyapp.android.UpdateFragment: java.lang.String urlString
+net.hockeyapp.android.UpdateFragment: net.hockeyapp.android.utils.VersionHelper versionHelper
+net.hockeyapp.android.UpdateFragment: UpdateFragment()
+net.hockeyapp.android.UpdateFragment: net.hockeyapp.android.UpdateFragment newInstance(org.json.JSONArray,java.lang.String)
+net.hockeyapp.android.UpdateFragment: void onCreate(android.os.Bundle)
+net.hockeyapp.android.UpdateFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+net.hockeyapp.android.UpdateFragment: void onClick(android.view.View)
+net.hockeyapp.android.UpdateFragment: void startDownloadTask(android.app.Activity)
+net.hockeyapp.android.UpdateFragment: int getCurrentVersionCode()
+net.hockeyapp.android.UpdateFragment: java.lang.String getAppName()
+net.hockeyapp.android.UpdateFragment: android.view.View getLayoutView()
+net.hockeyapp.android.UpdateFragment: void access$000(net.hockeyapp.android.UpdateFragment,android.app.Activity)
+net.hockeyapp.android.views.AttachmentListView: java.util.ArrayList getAttachments()
+net.hockeyapp.android.views.AttachmentView: net.hockeyapp.android.objects.FeedbackAttachment getAttachment()
+net.hockeyapp.android.views.AttachmentView: android.net.Uri getAttachmentUri()
+net.hockeyapp.android.views.AttachmentView: int getWidthPortrait()
+net.hockeyapp.android.views.AttachmentView: int getMaxHeightPortrait()
+net.hockeyapp.android.views.AttachmentView: int getWidthLandscape()
+net.hockeyapp.android.views.AttachmentView: int getMaxHeightLandscape()
+net.hockeyapp.android.views.AttachmentView: int getGap()
+net.hockeyapp.android.views.AttachmentView: int getEffectiveMaxHeight()
+net.hockeyapp.android.views.FeedbackMessageView: void setAuthorLabelText(java.lang.String)
+net.hockeyapp.android.views.FeedbackMessageView: void setAuthorLaberColor(int)
+net.hockeyapp.android.views.FeedbackMessageView: void setDateLabelText(java.lang.String)
+net.hockeyapp.android.views.FeedbackMessageView: void setDateLaberColor(int)
+net.hockeyapp.android.views.FeedbackMessageView: void setMessageLabelText(java.lang.String)
+net.hockeyapp.android.views.FeedbackMessageView: void setMessageLaberColor(int)
+net.hockeyapp.android.views.FeedbackMessageView: void setFeedbackMessageViewBgAndTextColor(int)
+net.hockeyapp.android.views.FeedbackView: android.graphics.drawable.Drawable getButtonSelector()
+net.hockeyapp.android.views.LoginView: android.graphics.drawable.Drawable getButtonSelector()
+net.hockeyapp.android.views.UpdateView
+net.hockeyapp.android.views.UpdateView: UpdateView(android.content.Context,android.util.AttributeSet)
+net.hockeyapp.android.views.UpdateView: void setLayoutHorizontally(android.content.Context)
+net.hockeyapp.android.views.UpdateView: android.graphics.drawable.Drawable getButtonSelector()
+org.apache.http.entity.mime.FormBodyPart
+org.apache.http.entity.mime.FormBodyPart: java.lang.String name
+org.apache.http.entity.mime.FormBodyPart: FormBodyPart(java.lang.String,org.apache.http.entity.mime.content.ContentBody)
+org.apache.http.entity.mime.FormBodyPart: java.lang.String getName()
+org.apache.http.entity.mime.FormBodyPart: void generateContentDisp(org.apache.http.entity.mime.content.ContentBody)
+org.apache.http.entity.mime.FormBodyPart: void generateContentType(org.apache.james.mime4j.descriptor.ContentDescriptor)
+org.apache.http.entity.mime.FormBodyPart: void generateTransferEncoding(org.apache.james.mime4j.descriptor.ContentDescriptor)
+org.apache.http.entity.mime.FormBodyPart: void addField(java.lang.String,java.lang.String)
+org.apache.http.entity.mime.HttpMultipart
+org.apache.http.entity.mime.HttpMultipart: org.apache.james.mime4j.util.ByteArrayBuffer CR_LF
+org.apache.http.entity.mime.HttpMultipart: org.apache.james.mime4j.util.ByteArrayBuffer TWO_DASHES
+org.apache.http.entity.mime.HttpMultipart: org.apache.http.entity.mime.HttpMultipartMode mode
+org.apache.http.entity.mime.HttpMultipart: org.apache.james.mime4j.util.ByteArrayBuffer encode(java.nio.charset.Charset,java.lang.String)
+org.apache.http.entity.mime.HttpMultipart: void writeBytes(org.apache.james.mime4j.util.ByteArrayBuffer,java.io.OutputStream)
+org.apache.http.entity.mime.HttpMultipart: void writeBytes(org.apache.james.mime4j.util.ByteSequence,java.io.OutputStream)
+org.apache.http.entity.mime.HttpMultipart: HttpMultipart(java.lang.String)
+org.apache.http.entity.mime.HttpMultipart: org.apache.http.entity.mime.HttpMultipartMode getMode()
+org.apache.http.entity.mime.HttpMultipart: void setMode(org.apache.http.entity.mime.HttpMultipartMode)
+org.apache.http.entity.mime.HttpMultipart: java.nio.charset.Charset getCharset()
+org.apache.http.entity.mime.HttpMultipart: java.lang.String getBoundary()
+org.apache.http.entity.mime.HttpMultipart: void doWriteTo(org.apache.http.entity.mime.HttpMultipartMode,java.io.OutputStream,boolean)
+org.apache.http.entity.mime.HttpMultipart: void writeTo(java.io.OutputStream)
+org.apache.http.entity.mime.HttpMultipart: long getTotalLength()
+org.apache.http.entity.mime.HttpMultipart: void <clinit>()
+org.apache.http.entity.mime.HttpMultipart$1
+org.apache.http.entity.mime.HttpMultipartMode
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode STRICT
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode BROWSER_COMPATIBLE
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode[] $VALUES
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode[] values()
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode valueOf(java.lang.String)
+org.apache.http.entity.mime.HttpMultipartMode: HttpMultipartMode(java.lang.String,int)
+org.apache.http.entity.mime.HttpMultipartMode: void <clinit>()
+org.apache.http.entity.mime.MIME
+org.apache.http.entity.mime.MIME: java.lang.String CONTENT_TYPE
+org.apache.http.entity.mime.MIME: java.lang.String CONTENT_TRANSFER_ENC
+org.apache.http.entity.mime.MIME: java.lang.String CONTENT_DISPOSITION
+org.apache.http.entity.mime.MIME: java.lang.String ENC_8BIT
+org.apache.http.entity.mime.MIME: java.lang.String ENC_BINARY
+org.apache.http.entity.mime.MIME: java.nio.charset.Charset DEFAULT_CHARSET
+org.apache.http.entity.mime.MIME: MIME()
+org.apache.http.entity.mime.MIME: void <clinit>()
+org.apache.http.entity.mime.MinimalField
+org.apache.http.entity.mime.MinimalField: java.lang.String name
+org.apache.http.entity.mime.MinimalField: java.lang.String value
+org.apache.http.entity.mime.MinimalField: org.apache.james.mime4j.util.ByteSequence raw
+org.apache.http.entity.mime.MinimalField: MinimalField(java.lang.String,java.lang.String)
+org.apache.http.entity.mime.MinimalField: java.lang.String getName()
+org.apache.http.entity.mime.MinimalField: java.lang.String getBody()
+org.apache.http.entity.mime.MinimalField: org.apache.james.mime4j.util.ByteSequence getRaw()
+org.apache.http.entity.mime.MinimalField: java.lang.String toString()
+org.apache.http.entity.mime.MultipartEntity
+org.apache.http.entity.mime.MultipartEntity: char[] MULTIPART_CHARS
+org.apache.http.entity.mime.MultipartEntity: org.apache.james.mime4j.message.Message message
+org.apache.http.entity.mime.MultipartEntity: org.apache.http.entity.mime.HttpMultipart multipart
+org.apache.http.entity.mime.MultipartEntity: org.apache.http.Header contentType
+org.apache.http.entity.mime.MultipartEntity: long length
+org.apache.http.entity.mime.MultipartEntity: boolean dirty
+org.apache.http.entity.mime.MultipartEntity: MultipartEntity(org.apache.http.entity.mime.HttpMultipartMode,java.lang.String,java.nio.charset.Charset)
+org.apache.http.entity.mime.MultipartEntity: MultipartEntity(org.apache.http.entity.mime.HttpMultipartMode)
+org.apache.http.entity.mime.MultipartEntity: MultipartEntity()
+org.apache.http.entity.mime.MultipartEntity: java.lang.String generateContentType(java.lang.String,java.nio.charset.Charset)
+org.apache.http.entity.mime.MultipartEntity: void addPart(java.lang.String,org.apache.http.entity.mime.content.ContentBody)
+org.apache.http.entity.mime.MultipartEntity: boolean isRepeatable()
+org.apache.http.entity.mime.MultipartEntity: boolean isChunked()
+org.apache.http.entity.mime.MultipartEntity: boolean isStreaming()
+org.apache.http.entity.mime.MultipartEntity: long getContentLength()
+org.apache.http.entity.mime.MultipartEntity: org.apache.http.Header getContentType()
+org.apache.http.entity.mime.MultipartEntity: org.apache.http.Header getContentEncoding()
+org.apache.http.entity.mime.MultipartEntity: void consumeContent()
+org.apache.http.entity.mime.MultipartEntity: java.io.InputStream getContent()
+org.apache.http.entity.mime.MultipartEntity: void writeTo(java.io.OutputStream)
+org.apache.http.entity.mime.MultipartEntity: void <clinit>()
+org.apache.http.entity.mime.UnexpectedMimeException
+org.apache.http.entity.mime.UnexpectedMimeException: long serialVersionUID
+org.apache.http.entity.mime.UnexpectedMimeException: UnexpectedMimeException(org.apache.james.mime4j.MimeException)
+org.apache.http.entity.mime.content.AbstractContentBody
+org.apache.http.entity.mime.content.AbstractContentBody: java.lang.String mimeType
+org.apache.http.entity.mime.content.AbstractContentBody: java.lang.String mediaType
+org.apache.http.entity.mime.content.AbstractContentBody: java.lang.String subType
+org.apache.http.entity.mime.content.AbstractContentBody: org.apache.james.mime4j.message.Entity parent
+org.apache.http.entity.mime.content.AbstractContentBody: AbstractContentBody(java.lang.String)
+org.apache.http.entity.mime.content.AbstractContentBody: org.apache.james.mime4j.message.Entity getParent()
+org.apache.http.entity.mime.content.AbstractContentBody: void setParent(org.apache.james.mime4j.message.Entity)
+org.apache.http.entity.mime.content.AbstractContentBody: java.lang.String getMimeType()
+org.apache.http.entity.mime.content.AbstractContentBody: java.lang.String getMediaType()
+org.apache.http.entity.mime.content.AbstractContentBody: java.lang.String getSubType()
+org.apache.http.entity.mime.content.AbstractContentBody: java.util.Map getContentTypeParameters()
+org.apache.http.entity.mime.content.AbstractContentBody: void dispose()
+org.apache.http.entity.mime.content.ContentBody
+org.apache.http.entity.mime.content.ContentBody: java.lang.String getFilename()
+org.apache.http.entity.mime.content.FileBody
+org.apache.http.entity.mime.content.FileBody: java.io.File file
+org.apache.http.entity.mime.content.FileBody: FileBody(java.io.File,java.lang.String)
+org.apache.http.entity.mime.content.FileBody: FileBody(java.io.File)
+org.apache.http.entity.mime.content.FileBody: java.io.InputStream getInputStream()
+org.apache.http.entity.mime.content.FileBody: void writeTo(java.io.OutputStream,int)
+org.apache.http.entity.mime.content.FileBody: void writeTo(java.io.OutputStream)
+org.apache.http.entity.mime.content.FileBody: java.lang.String getTransferEncoding()
+org.apache.http.entity.mime.content.FileBody: java.lang.String getCharset()
+org.apache.http.entity.mime.content.FileBody: long getContentLength()
+org.apache.http.entity.mime.content.FileBody: java.lang.String getFilename()
+org.apache.http.entity.mime.content.FileBody: java.io.File getFile()
+org.apache.http.entity.mime.content.InputStreamBody
+org.apache.http.entity.mime.content.InputStreamBody: java.io.InputStream in
+org.apache.http.entity.mime.content.InputStreamBody: java.lang.String filename
+org.apache.http.entity.mime.content.InputStreamBody: InputStreamBody(java.io.InputStream,java.lang.String,java.lang.String)
+org.apache.http.entity.mime.content.InputStreamBody: InputStreamBody(java.io.InputStream,java.lang.String)
+org.apache.http.entity.mime.content.InputStreamBody: java.io.InputStream getInputStream()
+org.apache.http.entity.mime.content.InputStreamBody: void writeTo(java.io.OutputStream,int)
+org.apache.http.entity.mime.content.InputStreamBody: void writeTo(java.io.OutputStream)
+org.apache.http.entity.mime.content.InputStreamBody: java.lang.String getTransferEncoding()
+org.apache.http.entity.mime.content.InputStreamBody: java.lang.String getCharset()
+org.apache.http.entity.mime.content.InputStreamBody: long getContentLength()
+org.apache.http.entity.mime.content.InputStreamBody: java.lang.String getFilename()
+org.apache.http.entity.mime.content.StringBody
+org.apache.http.entity.mime.content.StringBody: byte[] content
+org.apache.http.entity.mime.content.StringBody: java.nio.charset.Charset charset
+org.apache.http.entity.mime.content.StringBody: StringBody(java.lang.String,java.lang.String,java.nio.charset.Charset)
+org.apache.http.entity.mime.content.StringBody: StringBody(java.lang.String,java.nio.charset.Charset)
+org.apache.http.entity.mime.content.StringBody: StringBody(java.lang.String)
+org.apache.http.entity.mime.content.StringBody: java.io.Reader getReader()
+org.apache.http.entity.mime.content.StringBody: void writeTo(java.io.OutputStream,int)
+org.apache.http.entity.mime.content.StringBody: void writeTo(java.io.OutputStream)
+org.apache.http.entity.mime.content.StringBody: java.lang.String getTransferEncoding()
+org.apache.http.entity.mime.content.StringBody: java.lang.String getCharset()
+org.apache.http.entity.mime.content.StringBody: java.util.Map getContentTypeParameters()
+org.apache.http.entity.mime.content.StringBody: long getContentLength()
+org.apache.http.entity.mime.content.StringBody: java.lang.String getFilename()
+org.apache.james.mime4j.codec.EncoderUtil$Encoding: org.apache.james.mime4j.codec.EncoderUtil$Encoding[] values()
+org.apache.james.mime4j.codec.EncoderUtil$Encoding: org.apache.james.mime4j.codec.EncoderUtil$Encoding valueOf(java.lang.String)
+org.apache.james.mime4j.codec.EncoderUtil$Usage: org.apache.james.mime4j.codec.EncoderUtil$Usage[] values()
+org.apache.james.mime4j.codec.EncoderUtil$Usage: org.apache.james.mime4j.codec.EncoderUtil$Usage valueOf(java.lang.String)
+org.apache.james.mime4j.field.address.AddressList
+org.apache.james.mime4j.field.address.AddressList: void main(java.lang.String[])
+org.apache.james.mime4j.field.address.parser.AddressListParser
+org.apache.james.mime4j.field.address.parser.AddressListParser: void main(java.lang.String[])
+org.apache.james.mime4j.field.contentdisposition.parser.ContentDispositionParser
+org.apache.james.mime4j.field.contentdisposition.parser.ContentDispositionParser: void main(java.lang.String[])
+org.apache.james.mime4j.field.contenttype.parser.ContentTypeParser
+org.apache.james.mime4j.field.contenttype.parser.ContentTypeParser: void main(java.lang.String[])
+org.apache.james.mime4j.field.datetime.parser.DateTimeParser
+org.apache.james.mime4j.field.datetime.parser.DateTimeParser: void main(java.lang.String[])
+org.apache.james.mime4j.message.BodyPart: BodyPart()
+org.apache.james.mime4j.message.BodyPart: BodyPart(org.apache.james.mime4j.message.BodyPart)
+org.apache.james.mime4j.message.Entity: org.apache.james.mime4j.message.Header header
+org.apache.james.mime4j.message.Entity: org.apache.james.mime4j.message.Body body
+org.apache.james.mime4j.message.Entity: org.apache.james.mime4j.message.Entity parent
+org.apache.james.mime4j.message.Entity: Entity()
+org.apache.james.mime4j.message.Entity: Entity(org.apache.james.mime4j.message.Entity)
+org.apache.james.mime4j.message.Entity: org.apache.james.mime4j.message.Entity getParent()
+org.apache.james.mime4j.message.Entity: void setParent(org.apache.james.mime4j.message.Entity)
+org.apache.james.mime4j.message.Entity: org.apache.james.mime4j.message.Header getHeader()
+org.apache.james.mime4j.message.Entity: void setHeader(org.apache.james.mime4j.message.Header)
+org.apache.james.mime4j.message.Entity: org.apache.james.mime4j.message.Body getBody()
+org.apache.james.mime4j.message.Entity: void setBody(org.apache.james.mime4j.message.Body)
+org.apache.james.mime4j.message.Entity: org.apache.james.mime4j.message.Body removeBody()
+org.apache.james.mime4j.message.Entity: void setMessage(org.apache.james.mime4j.message.Message)
+org.apache.james.mime4j.message.Entity: void setMultipart(org.apache.james.mime4j.message.Multipart)
+org.apache.james.mime4j.message.Entity: void setMultipart(org.apache.james.mime4j.message.Multipart,java.util.Map)
+org.apache.james.mime4j.message.Entity: void setText(org.apache.james.mime4j.message.TextBody)
+org.apache.james.mime4j.message.Entity: void setText(org.apache.james.mime4j.message.TextBody,java.lang.String)
+org.apache.james.mime4j.message.Entity: void setBody(org.apache.james.mime4j.message.Body,java.lang.String)
+org.apache.james.mime4j.message.Entity: void setBody(org.apache.james.mime4j.message.Body,java.lang.String,java.util.Map)
+org.apache.james.mime4j.message.Entity: java.lang.String getMimeType()
+org.apache.james.mime4j.message.Entity: java.lang.String getCharset()
+org.apache.james.mime4j.message.Entity: java.lang.String getContentTransferEncoding()
+org.apache.james.mime4j.message.Entity: void setContentTransferEncoding(java.lang.String)
+org.apache.james.mime4j.message.Entity: java.lang.String getDispositionType()
+org.apache.james.mime4j.message.Entity: void setContentDisposition(java.lang.String)
+org.apache.james.mime4j.message.Entity: void setContentDisposition(java.lang.String,java.lang.String)
+org.apache.james.mime4j.message.Entity: void setContentDisposition(java.lang.String,java.lang.String,long)
+org.apache.james.mime4j.message.Entity: void setContentDisposition(java.lang.String,java.lang.String,long,java.util.Date,java.util.Date,java.util.Date)
+org.apache.james.mime4j.message.Entity: java.lang.String getFilename()
+org.apache.james.mime4j.message.Entity: void setFilename(java.lang.String)
+org.apache.james.mime4j.message.Entity: boolean isMimeType(java.lang.String)
+org.apache.james.mime4j.message.Entity: boolean isMultipart()
+org.apache.james.mime4j.message.Entity: void dispose()
+org.apache.james.mime4j.message.Entity: org.apache.james.mime4j.message.Header obtainHeader()
+org.apache.james.mime4j.message.Entity: org.apache.james.mime4j.parser.Field obtainField(java.lang.String)
+org.apache.james.mime4j.message.Multipart: java.util.List bodyParts
+org.apache.james.mime4j.message.Multipart: org.apache.james.mime4j.message.Entity parent
+org.apache.james.mime4j.message.Multipart: org.apache.james.mime4j.util.ByteSequence preamble
+org.apache.james.mime4j.message.Multipart: java.lang.String preambleStrCache
+org.apache.james.mime4j.message.Multipart: org.apache.james.mime4j.util.ByteSequence epilogue
+org.apache.james.mime4j.message.Multipart: java.lang.String epilogueStrCache
+org.apache.james.mime4j.message.Multipart: java.lang.String subType
+org.apache.james.mime4j.message.Multipart: Multipart(java.lang.String)
+org.apache.james.mime4j.message.Multipart: Multipart(org.apache.james.mime4j.message.Multipart)
+org.apache.james.mime4j.message.Multipart: java.lang.String getSubType()
+org.apache.james.mime4j.message.Multipart: void setSubType(java.lang.String)
+org.apache.james.mime4j.message.Multipart: org.apache.james.mime4j.message.Entity getParent()
+org.apache.james.mime4j.message.Multipart: void setParent(org.apache.james.mime4j.message.Entity)
+org.apache.james.mime4j.message.Multipart: int getCount()
+org.apache.james.mime4j.message.Multipart: java.util.List getBodyParts()
+org.apache.james.mime4j.message.Multipart: void setBodyParts(java.util.List)
+org.apache.james.mime4j.message.Multipart: void addBodyPart(org.apache.james.mime4j.message.BodyPart)
+org.apache.james.mime4j.message.Multipart: void addBodyPart(org.apache.james.mime4j.message.BodyPart,int)
+org.apache.james.mime4j.message.Multipart: org.apache.james.mime4j.message.BodyPart removeBodyPart(int)
+org.apache.james.mime4j.message.Multipart: org.apache.james.mime4j.message.BodyPart replaceBodyPart(org.apache.james.mime4j.message.BodyPart,int)
+org.apache.james.mime4j.message.Multipart: org.apache.james.mime4j.util.ByteSequence getPreambleRaw()
+org.apache.james.mime4j.message.Multipart: void setPreambleRaw(org.apache.james.mime4j.util.ByteSequence)
+org.apache.james.mime4j.message.Multipart: java.lang.String getPreamble()
+org.apache.james.mime4j.message.Multipart: void setPreamble(java.lang.String)
+org.apache.james.mime4j.message.Multipart: org.apache.james.mime4j.util.ByteSequence getEpilogueRaw()
+org.apache.james.mime4j.message.Multipart: void setEpilogueRaw(org.apache.james.mime4j.util.ByteSequence)
+org.apache.james.mime4j.message.Multipart: java.lang.String getEpilogue()
+org.apache.james.mime4j.message.Multipart: void setEpilogue(java.lang.String)
+org.apache.james.mime4j.message.Multipart: void dispose()
+org.apache.james.mime4j.message.SingleBody: org.apache.james.mime4j.message.Entity parent
+org.apache.james.mime4j.message.SingleBody: SingleBody()
+org.apache.james.mime4j.message.SingleBody: org.apache.james.mime4j.message.Entity getParent()
+org.apache.james.mime4j.message.SingleBody: void setParent(org.apache.james.mime4j.message.Entity)
+org.apache.james.mime4j.message.SingleBody: void writeTo(java.io.OutputStream)
+org.apache.james.mime4j.message.SingleBody: org.apache.james.mime4j.message.SingleBody copy()
+org.apache.james.mime4j.message.SingleBody: void dispose()
+org.cocos2dx.lib.Cocos2dxAccelerometer
+org.cocos2dx.lib.Cocos2dxAccelerometer: java.lang.String TAG
+org.cocos2dx.lib.Cocos2dxAccelerometer: android.content.Context mContext
+org.cocos2dx.lib.Cocos2dxAccelerometer: android.hardware.SensorManager mSensorManager
+org.cocos2dx.lib.Cocos2dxAccelerometer: android.hardware.Sensor mAccelerometer
+org.cocos2dx.lib.Cocos2dxAccelerometer: int mNaturalOrientation
+org.cocos2dx.lib.Cocos2dxAccelerometer: void <clinit>()
+org.cocos2dx.lib.Cocos2dxAccelerometer: Cocos2dxAccelerometer(android.content.Context)
+org.cocos2dx.lib.Cocos2dxAccelerometer: void enable()
+org.cocos2dx.lib.Cocos2dxAccelerometer: void setInterval(float)
+org.cocos2dx.lib.Cocos2dxAccelerometer: void disable()
+org.cocos2dx.lib.Cocos2dxAccelerometer: void onSensorChanged(android.hardware.SensorEvent)
+org.cocos2dx.lib.Cocos2dxAccelerometer: void onAccuracyChanged(android.hardware.Sensor,int)
+org.cocos2dx.lib.Cocos2dxAccelerometer: void onSensorChanged(float,float,float,long)
+org.cocos2dx.lib.Cocos2dxActivity
+org.cocos2dx.lib.Cocos2dxActivity: java.lang.String TAG
+org.cocos2dx.lib.Cocos2dxActivity: org.cocos2dx.lib.Cocos2dxGLSurfaceView mGLSurfaceView
+org.cocos2dx.lib.Cocos2dxActivity: org.cocos2dx.lib.Cocos2dxHandler mHandler
+org.cocos2dx.lib.Cocos2dxActivity: android.content.Context sContext
+org.cocos2dx.lib.Cocos2dxActivity: android.widget.FrameLayout mFrameLayout
+org.cocos2dx.lib.Cocos2dxActivity: void <clinit>()
+org.cocos2dx.lib.Cocos2dxActivity: Cocos2dxActivity()
+org.cocos2dx.lib.Cocos2dxActivity: android.content.Context getContext()
+org.cocos2dx.lib.Cocos2dxActivity: void onCreate(android.os.Bundle)
+org.cocos2dx.lib.Cocos2dxActivity: void onResume()
+org.cocos2dx.lib.Cocos2dxActivity: void onPause()
+org.cocos2dx.lib.Cocos2dxActivity: void showDialog(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxActivity: void showEditTextDialog(java.lang.String,java.lang.String,int,int,int,int)
+org.cocos2dx.lib.Cocos2dxActivity: void runOnGLThread(java.lang.Runnable)
+org.cocos2dx.lib.Cocos2dxActivity: void init()
+org.cocos2dx.lib.Cocos2dxActivity: org.cocos2dx.lib.Cocos2dxGLSurfaceView onCreateView()
+org.cocos2dx.lib.Cocos2dxActivity: boolean isAndroidEmulator()
+org.cocos2dx.lib.Cocos2dxBitmap
+org.cocos2dx.lib.Cocos2dxBitmap: int HORIZONTALALIGN_LEFT
+org.cocos2dx.lib.Cocos2dxBitmap: int HORIZONTALALIGN_RIGHT
+org.cocos2dx.lib.Cocos2dxBitmap: int HORIZONTALALIGN_CENTER
+org.cocos2dx.lib.Cocos2dxBitmap: int VERTICALALIGN_TOP
+org.cocos2dx.lib.Cocos2dxBitmap: int VERTICALALIGN_BOTTOM
+org.cocos2dx.lib.Cocos2dxBitmap: int VERTICALALIGN_CENTER
+org.cocos2dx.lib.Cocos2dxBitmap: android.content.Context sContext
+org.cocos2dx.lib.Cocos2dxBitmap: Cocos2dxBitmap()
+org.cocos2dx.lib.Cocos2dxBitmap: void setContext(android.content.Context)
+org.cocos2dx.lib.Cocos2dxBitmap: void nativeInitBitmapDC(int,int,byte[])
+org.cocos2dx.lib.Cocos2dxBitmap: void createTextBitmap(java.lang.String,java.lang.String,int,int,int,int)
+org.cocos2dx.lib.Cocos2dxBitmap: void createTextBitmapShadowStroke(java.lang.String,java.lang.String,int,float,float,float,int,int,int,boolean,float,float,float,boolean,float,float,float,float)
+org.cocos2dx.lib.Cocos2dxBitmap: android.graphics.Paint newPaint(java.lang.String,int,int)
+org.cocos2dx.lib.Cocos2dxBitmap: org.cocos2dx.lib.Cocos2dxBitmap$TextProperty computeTextProperty(java.lang.String,int,int,android.graphics.Paint)
+org.cocos2dx.lib.Cocos2dxBitmap: int computeX(java.lang.String,int,int)
+org.cocos2dx.lib.Cocos2dxBitmap: int computeY(android.graphics.Paint$FontMetricsInt,int,int,int)
+org.cocos2dx.lib.Cocos2dxBitmap: java.lang.String[] splitString(java.lang.String,int,int,android.graphics.Paint)
+org.cocos2dx.lib.Cocos2dxBitmap: java.util.LinkedList divideStringWithMaxWidth(java.lang.String,int,android.graphics.Paint)
+org.cocos2dx.lib.Cocos2dxBitmap: java.lang.String refactorString(java.lang.String)
+org.cocos2dx.lib.Cocos2dxBitmap: void initNativeObject(android.graphics.Bitmap)
+org.cocos2dx.lib.Cocos2dxBitmap: byte[] getPixels(android.graphics.Bitmap)
+org.cocos2dx.lib.Cocos2dxBitmap: int getFontSizeAccordingHeight(int)
+org.cocos2dx.lib.Cocos2dxBitmap: java.lang.String getStringWithEllipsis(java.lang.String,float,float)
+org.cocos2dx.lib.Cocos2dxBitmap$TextProperty
+org.cocos2dx.lib.Cocos2dxETCLoader
+org.cocos2dx.lib.Cocos2dxETCLoader: java.lang.String ASSETS_PATH
+org.cocos2dx.lib.Cocos2dxETCLoader: android.content.Context context
+org.cocos2dx.lib.Cocos2dxETCLoader: Cocos2dxETCLoader()
+org.cocos2dx.lib.Cocos2dxETCLoader: boolean loadTexture(java.lang.String)
+org.cocos2dx.lib.Cocos2dxETCLoader: void setContext(android.content.Context)
+org.cocos2dx.lib.Cocos2dxETCLoader: void nativeSetTextureInfo(int,int,byte[],int)
+org.cocos2dx.lib.Cocos2dxEditBoxDialog
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kEditBoxInputModeAny
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kEditBoxInputModeEmailAddr
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kEditBoxInputModeNumeric
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kEditBoxInputModePhoneNumber
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kEditBoxInputModeUrl
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kEditBoxInputModeDecimal
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kEditBoxInputModeSingleLine
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kEditBoxInputFlagPassword
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kEditBoxInputFlagSensitive
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kEditBoxInputFlagInitialCapsWord
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kEditBoxInputFlagInitialCapsSentence
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kEditBoxInputFlagInitialCapsAllCharacters
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kKeyboardReturnTypeDefault
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kKeyboardReturnTypeDone
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kKeyboardReturnTypeSend
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kKeyboardReturnTypeSearch
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int kKeyboardReturnTypeGo
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: android.widget.EditText mInputEditText
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: android.widget.TextView mTextViewTitle
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: java.lang.String mTitle
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: java.lang.String mMessage
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int mInputMode
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int mInputFlag
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int mReturnType
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int mMaxLength
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int mInputFlagConstraints
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int mInputModeContraints
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: boolean mIsMultiline
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: Cocos2dxEditBoxDialog(android.content.Context,java.lang.String,java.lang.String,int,int,int,int)
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: void onCreate(android.os.Bundle)
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: int convertDipsToPixels(float)
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: void openKeyboard()
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: void closeKeyboard()
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: android.widget.EditText access$0(org.cocos2dx.lib.Cocos2dxEditBoxDialog)
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: void access$1(org.cocos2dx.lib.Cocos2dxEditBoxDialog)
+org.cocos2dx.lib.Cocos2dxEditBoxDialog: void access$2(org.cocos2dx.lib.Cocos2dxEditBoxDialog)
+org.cocos2dx.lib.Cocos2dxEditBoxDialog$1
+org.cocos2dx.lib.Cocos2dxEditBoxDialog$2
+org.cocos2dx.lib.Cocos2dxEditText
+org.cocos2dx.lib.Cocos2dxEditText: org.cocos2dx.lib.Cocos2dxGLSurfaceView mCocos2dxGLSurfaceView
+org.cocos2dx.lib.Cocos2dxEditText: Cocos2dxEditText(android.content.Context)
+org.cocos2dx.lib.Cocos2dxEditText: Cocos2dxEditText(android.content.Context,android.util.AttributeSet)
+org.cocos2dx.lib.Cocos2dxEditText: Cocos2dxEditText(android.content.Context,android.util.AttributeSet,int)
+org.cocos2dx.lib.Cocos2dxEditText: void setCocos2dxGLSurfaceView(org.cocos2dx.lib.Cocos2dxGLSurfaceView)
+org.cocos2dx.lib.Cocos2dxEditText: boolean onKeyDown(int,android.view.KeyEvent)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: java.lang.String TAG
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: int HANDLER_OPEN_IME_KEYBOARD
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: int HANDLER_CLOSE_IME_KEYBOARD
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: android.os.Handler sHandler
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxGLSurfaceView mCocos2dxGLSurfaceView
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxTextInputWraper sCocos2dxTextInputWraper
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxRenderer mCocos2dxRenderer
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxEditText mCocos2dxEditText
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: int mDirtyInterval
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: android.os.Handler mDirtyRenderHandler
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: java.lang.Runnable mDirtyRunnable
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void <clinit>()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: Cocos2dxGLSurfaceView(android.content.Context)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: Cocos2dxGLSurfaceView(android.content.Context,android.util.AttributeSet)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void initView()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void Cocos2dxSetDirtyRender20()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void Cocos2dxSetDirtyRender30()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void runDirtyRenderLoop()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void setDirtyRenderMode(int)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxGLSurfaceView getInstance()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void queueAccelerometer(float,float,float,long)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void setCocos2dxRenderer(org.cocos2dx.lib.Cocos2dxRenderer)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: java.lang.String getContentText()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxEditText getCocos2dxEditText()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void setCocos2dxEditText(org.cocos2dx.lib.Cocos2dxEditText)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void onResume()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void onPause()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: boolean onTouchEvent(android.view.MotionEvent)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void onSizeChanged(int,int,int,int)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: boolean onKeyDown(int,android.view.KeyEvent)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void openIMEKeyboard()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void closeIMEKeyboard()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void insertText(java.lang.String)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void deleteBackward()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void dumpMotionEvent(android.view.MotionEvent)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxEditText access$0(org.cocos2dx.lib.Cocos2dxGLSurfaceView)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxTextInputWraper access$1()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxGLSurfaceView access$2()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: android.os.Handler access$3(org.cocos2dx.lib.Cocos2dxGLSurfaceView)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: int access$4(org.cocos2dx.lib.Cocos2dxGLSurfaceView)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxRenderer access$5(org.cocos2dx.lib.Cocos2dxGLSurfaceView)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$1
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$10
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$11
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$12
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$13
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$14
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$2
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$3
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$4
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$5
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$6
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$7
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$8
+org.cocos2dx.lib.Cocos2dxGLSurfaceView$9
+org.cocos2dx.lib.Cocos2dxHandler
+org.cocos2dx.lib.Cocos2dxHandler: int HANDLER_SHOW_DIALOG
+org.cocos2dx.lib.Cocos2dxHandler: int HANDLER_SHOW_EDITBOX_DIALOG
+org.cocos2dx.lib.Cocos2dxHandler: java.lang.ref.WeakReference mActivity
+org.cocos2dx.lib.Cocos2dxHandler: Cocos2dxHandler(org.cocos2dx.lib.Cocos2dxActivity)
+org.cocos2dx.lib.Cocos2dxHandler: void handleMessage(android.os.Message)
+org.cocos2dx.lib.Cocos2dxHandler: void showDialog(android.os.Message)
+org.cocos2dx.lib.Cocos2dxHandler: void showEditBoxDialog(android.os.Message)
+org.cocos2dx.lib.Cocos2dxHandler$1
+org.cocos2dx.lib.Cocos2dxHandler$DialogMessage
+org.cocos2dx.lib.Cocos2dxHandler$DialogMessage: java.lang.String titile
+org.cocos2dx.lib.Cocos2dxHandler$DialogMessage: java.lang.String message
+org.cocos2dx.lib.Cocos2dxHandler$DialogMessage: Cocos2dxHandler$DialogMessage(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxHandler$EditBoxMessage
+org.cocos2dx.lib.Cocos2dxHandler$EditBoxMessage: java.lang.String title
+org.cocos2dx.lib.Cocos2dxHandler$EditBoxMessage: java.lang.String content
+org.cocos2dx.lib.Cocos2dxHandler$EditBoxMessage: int inputMode
+org.cocos2dx.lib.Cocos2dxHandler$EditBoxMessage: int inputFlag
+org.cocos2dx.lib.Cocos2dxHandler$EditBoxMessage: int returnType
+org.cocos2dx.lib.Cocos2dxHandler$EditBoxMessage: int maxLength
+org.cocos2dx.lib.Cocos2dxHandler$EditBoxMessage: Cocos2dxHandler$EditBoxMessage(java.lang.String,java.lang.String,int,int,int,int)
+org.cocos2dx.lib.Cocos2dxHelper
+org.cocos2dx.lib.Cocos2dxHelper: java.lang.String PREFS_NAME
+org.cocos2dx.lib.Cocos2dxHelper: org.cocos2dx.lib.Cocos2dxMusic sCocos2dMusic
+org.cocos2dx.lib.Cocos2dxHelper: org.cocos2dx.lib.Cocos2dxSound sCocos2dSound
+org.cocos2dx.lib.Cocos2dxHelper: android.content.res.AssetManager sAssetManager
+org.cocos2dx.lib.Cocos2dxHelper: org.cocos2dx.lib.Cocos2dxAccelerometer sCocos2dxAccelerometer
+org.cocos2dx.lib.Cocos2dxHelper: boolean sAccelerometerEnabled
+org.cocos2dx.lib.Cocos2dxHelper: java.lang.String sPackageName
+org.cocos2dx.lib.Cocos2dxHelper: java.lang.String sFileDirectory
+org.cocos2dx.lib.Cocos2dxHelper: android.content.Context sContext
+org.cocos2dx.lib.Cocos2dxHelper: org.cocos2dx.lib.Cocos2dxHelper$Cocos2dxHelperListener sCocos2dxHelperListener
+org.cocos2dx.lib.Cocos2dxHelper: void <clinit>()
+org.cocos2dx.lib.Cocos2dxHelper: Cocos2dxHelper()
+org.cocos2dx.lib.Cocos2dxHelper: void init(android.content.Context,org.cocos2dx.lib.Cocos2dxHelper$Cocos2dxHelperListener)
+org.cocos2dx.lib.Cocos2dxHelper: void nativeSetApkPath(java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper: void nativeSetEditTextDialogResult(byte[])
+org.cocos2dx.lib.Cocos2dxHelper: java.lang.String getCocos2dxPackageName()
+org.cocos2dx.lib.Cocos2dxHelper: java.lang.String getCocos2dxWritablePath()
+org.cocos2dx.lib.Cocos2dxHelper: java.lang.String getCurrentLanguage()
+org.cocos2dx.lib.Cocos2dxHelper: java.lang.String getDeviceModel()
+org.cocos2dx.lib.Cocos2dxHelper: android.content.res.AssetManager getAssetManager()
+org.cocos2dx.lib.Cocos2dxHelper: void enableAccelerometer()
+org.cocos2dx.lib.Cocos2dxHelper: void setAccelerometerInterval(float)
+org.cocos2dx.lib.Cocos2dxHelper: void disableAccelerometer()
+org.cocos2dx.lib.Cocos2dxHelper: void preloadBackgroundMusic(java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper: void playBackgroundMusic(java.lang.String,boolean)
+org.cocos2dx.lib.Cocos2dxHelper: void resumeBackgroundMusic()
+org.cocos2dx.lib.Cocos2dxHelper: void pauseBackgroundMusic()
+org.cocos2dx.lib.Cocos2dxHelper: void stopBackgroundMusic()
+org.cocos2dx.lib.Cocos2dxHelper: void rewindBackgroundMusic()
+org.cocos2dx.lib.Cocos2dxHelper: boolean isBackgroundMusicPlaying()
+org.cocos2dx.lib.Cocos2dxHelper: boolean didBackgroundMusicComplete()
+org.cocos2dx.lib.Cocos2dxHelper: float getBackgroundMusicVolume()
+org.cocos2dx.lib.Cocos2dxHelper: void setBackgroundMusicVolume(float)
+org.cocos2dx.lib.Cocos2dxHelper: void preloadEffect(java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper: int playEffect(java.lang.String,boolean)
+org.cocos2dx.lib.Cocos2dxHelper: void resumeEffect(int)
+org.cocos2dx.lib.Cocos2dxHelper: void pauseEffect(int)
+org.cocos2dx.lib.Cocos2dxHelper: void stopEffect(int)
+org.cocos2dx.lib.Cocos2dxHelper: float getEffectsVolume()
+org.cocos2dx.lib.Cocos2dxHelper: void setEffectsVolume(float)
+org.cocos2dx.lib.Cocos2dxHelper: void unloadEffect(java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper: void pauseAllEffects()
+org.cocos2dx.lib.Cocos2dxHelper: void resumeAllEffects()
+org.cocos2dx.lib.Cocos2dxHelper: void stopAllEffects()
+org.cocos2dx.lib.Cocos2dxHelper: void end()
+org.cocos2dx.lib.Cocos2dxHelper: void onResume()
+org.cocos2dx.lib.Cocos2dxHelper: void onPause()
+org.cocos2dx.lib.Cocos2dxHelper: void terminateProcess()
+org.cocos2dx.lib.Cocos2dxHelper: void showDialog(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper: void showEditTextDialog(java.lang.String,java.lang.String,int,int,int,int)
+org.cocos2dx.lib.Cocos2dxHelper: void setEditTextDialogResult(java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper: int getDPI()
+org.cocos2dx.lib.Cocos2dxHelper: boolean getBoolForKey(java.lang.String,boolean)
+org.cocos2dx.lib.Cocos2dxHelper: int getIntegerForKey(java.lang.String,int)
+org.cocos2dx.lib.Cocos2dxHelper: float getFloatForKey(java.lang.String,float)
+org.cocos2dx.lib.Cocos2dxHelper: double getDoubleForKey(java.lang.String,double)
+org.cocos2dx.lib.Cocos2dxHelper: java.lang.String getStringForKey(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper: void setBoolForKey(java.lang.String,boolean)
+org.cocos2dx.lib.Cocos2dxHelper: void setIntegerForKey(java.lang.String,int)
+org.cocos2dx.lib.Cocos2dxHelper: void setFloatForKey(java.lang.String,float)
+org.cocos2dx.lib.Cocos2dxHelper: void setDoubleForKey(java.lang.String,double)
+org.cocos2dx.lib.Cocos2dxHelper: void setStringForKey(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper: void access$0(byte[])
+org.cocos2dx.lib.Cocos2dxHelper$1
+org.cocos2dx.lib.Cocos2dxHelper$Cocos2dxHelperListener
+org.cocos2dx.lib.Cocos2dxHelper$Cocos2dxHelperListener: void showDialog(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper$Cocos2dxHelperListener: void showEditTextDialog(java.lang.String,java.lang.String,int,int,int,int)
+org.cocos2dx.lib.Cocos2dxHelper$Cocos2dxHelperListener: void runOnGLThread(java.lang.Runnable)
+org.cocos2dx.lib.Cocos2dxLocalStorage
+org.cocos2dx.lib.Cocos2dxLocalStorage: java.lang.String TAG
+org.cocos2dx.lib.Cocos2dxLocalStorage: java.lang.String DATABASE_NAME
+org.cocos2dx.lib.Cocos2dxLocalStorage: java.lang.String TABLE_NAME
+org.cocos2dx.lib.Cocos2dxLocalStorage: int DATABASE_VERSION
+org.cocos2dx.lib.Cocos2dxLocalStorage: org.cocos2dx.lib.Cocos2dxLocalStorage$DBOpenHelper mDatabaseOpenHelper
+org.cocos2dx.lib.Cocos2dxLocalStorage: android.database.sqlite.SQLiteDatabase mDatabase
+org.cocos2dx.lib.Cocos2dxLocalStorage: void <clinit>()
+org.cocos2dx.lib.Cocos2dxLocalStorage: Cocos2dxLocalStorage()
+org.cocos2dx.lib.Cocos2dxLocalStorage: boolean init(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxLocalStorage: void destory()
+org.cocos2dx.lib.Cocos2dxLocalStorage: void setItem(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxLocalStorage: java.lang.String getItem(java.lang.String)
+org.cocos2dx.lib.Cocos2dxLocalStorage: void removeItem(java.lang.String)
+org.cocos2dx.lib.Cocos2dxLocalStorage: java.lang.String access$0()
+org.cocos2dx.lib.Cocos2dxLocalStorage: java.lang.String access$1()
+org.cocos2dx.lib.Cocos2dxLocalStorage$DBOpenHelper
+org.cocos2dx.lib.Cocos2dxMusic
+org.cocos2dx.lib.Cocos2dxMusic: java.lang.String TAG
+org.cocos2dx.lib.Cocos2dxMusic: android.content.Context mContext
+org.cocos2dx.lib.Cocos2dxMusic: android.media.MediaPlayer mBackgroundMediaPlayer
+org.cocos2dx.lib.Cocos2dxMusic: float mLeftVolume
+org.cocos2dx.lib.Cocos2dxMusic: float mRightVolume
+org.cocos2dx.lib.Cocos2dxMusic: boolean mPaused
+org.cocos2dx.lib.Cocos2dxMusic: boolean mIsLoop
+org.cocos2dx.lib.Cocos2dxMusic: boolean mDidComplete
+org.cocos2dx.lib.Cocos2dxMusic: java.lang.String mCurrentPath
+org.cocos2dx.lib.Cocos2dxMusic: void <clinit>()
+org.cocos2dx.lib.Cocos2dxMusic: Cocos2dxMusic(android.content.Context)
+org.cocos2dx.lib.Cocos2dxMusic: void preloadBackgroundMusic(java.lang.String)
+org.cocos2dx.lib.Cocos2dxMusic: void playBackgroundMusic(java.lang.String,boolean)
+org.cocos2dx.lib.Cocos2dxMusic: void stopBackgroundMusic()
+org.cocos2dx.lib.Cocos2dxMusic: void pauseBackgroundMusic()
+org.cocos2dx.lib.Cocos2dxMusic: void resumeBackgroundMusic()
+org.cocos2dx.lib.Cocos2dxMusic: void rewindBackgroundMusic()
+org.cocos2dx.lib.Cocos2dxMusic: boolean isBackgroundMusicPlaying()
+org.cocos2dx.lib.Cocos2dxMusic: boolean didBackgroundMusicComplete()
+org.cocos2dx.lib.Cocos2dxMusic: void onCompletion(android.media.MediaPlayer)
+org.cocos2dx.lib.Cocos2dxMusic: void end()
+org.cocos2dx.lib.Cocos2dxMusic: float getBackgroundVolume()
+org.cocos2dx.lib.Cocos2dxMusic: void setBackgroundVolume(float)
+org.cocos2dx.lib.Cocos2dxMusic: void initData()
+org.cocos2dx.lib.Cocos2dxMusic: android.media.MediaPlayer createMediaplayer(java.lang.String)
+org.cocos2dx.lib.Cocos2dxMusic: void releaseBackgroundMediaPlayer()
+org.cocos2dx.lib.Cocos2dxRenderer
+org.cocos2dx.lib.Cocos2dxRenderer: long NANOSECONDSPERSECOND
+org.cocos2dx.lib.Cocos2dxRenderer: long NANOSECONDSPERMICROSECOND
+org.cocos2dx.lib.Cocos2dxRenderer: long sAnimationInterval
+org.cocos2dx.lib.Cocos2dxRenderer: long mLastTickInNanoSeconds
+org.cocos2dx.lib.Cocos2dxRenderer: int mScreenWidth
+org.cocos2dx.lib.Cocos2dxRenderer: int mScreenHeight
+org.cocos2dx.lib.Cocos2dxRenderer: void <clinit>()
+org.cocos2dx.lib.Cocos2dxRenderer: Cocos2dxRenderer()
+org.cocos2dx.lib.Cocos2dxRenderer: void setAnimationInterval(double)
+org.cocos2dx.lib.Cocos2dxRenderer: void setScreenWidthAndHeight(int,int)
+org.cocos2dx.lib.Cocos2dxRenderer: void onSurfaceCreated(javax.microedition.khronos.opengles.GL10,javax.microedition.khronos.egl.EGLConfig)
+org.cocos2dx.lib.Cocos2dxRenderer: void onSurfaceChanged(javax.microedition.khronos.opengles.GL10,int,int)
+org.cocos2dx.lib.Cocos2dxRenderer: void onDrawFrame(javax.microedition.khronos.opengles.GL10)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeTouchesBegin(int,float,float)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeTouchesEnd(int,float,float)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeTouchesMove(int[],float[],float[])
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeTouchesCancel(int[],float[],float[])
+org.cocos2dx.lib.Cocos2dxRenderer: boolean nativeKeyDown(int)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeRender()
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeInit(int,int)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeOnPause()
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeOnResume()
+org.cocos2dx.lib.Cocos2dxRenderer: void handleActionDown(int,float,float)
+org.cocos2dx.lib.Cocos2dxRenderer: void handleActionUp(int,float,float)
+org.cocos2dx.lib.Cocos2dxRenderer: void handleActionCancel(int[],float[],float[])
+org.cocos2dx.lib.Cocos2dxRenderer: void handleActionMove(int[],float[],float[])
+org.cocos2dx.lib.Cocos2dxRenderer: void handleKeyDown(int)
+org.cocos2dx.lib.Cocos2dxRenderer: void handleOnPause()
+org.cocos2dx.lib.Cocos2dxRenderer: void handleOnResume()
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeInsertText(java.lang.String)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeDeleteBackward()
+org.cocos2dx.lib.Cocos2dxRenderer: java.lang.String nativeGetContentText()
+org.cocos2dx.lib.Cocos2dxRenderer: void handleInsertText(java.lang.String)
+org.cocos2dx.lib.Cocos2dxRenderer: void handleDeleteBackward()
+org.cocos2dx.lib.Cocos2dxRenderer: java.lang.String getContentText()
+org.cocos2dx.lib.Cocos2dxSound
+org.cocos2dx.lib.Cocos2dxSound: int MAX_SIMULTANEOUS_STREAMS_DEFAULT
+org.cocos2dx.lib.Cocos2dxSound: int MAX_SIMULTANEOUS_STREAMS_I9100
+org.cocos2dx.lib.Cocos2dxSound: java.lang.String TAG
+org.cocos2dx.lib.Cocos2dxSound: android.content.Context mContext
+org.cocos2dx.lib.Cocos2dxSound: android.media.SoundPool mSoundPool
+org.cocos2dx.lib.Cocos2dxSound: float mLeftVolume
+org.cocos2dx.lib.Cocos2dxSound: float mRightVolume
+org.cocos2dx.lib.Cocos2dxSound: java.util.HashMap mPathStreamIDsMap
+org.cocos2dx.lib.Cocos2dxSound: java.util.HashMap mPathSoundIDMap
+org.cocos2dx.lib.Cocos2dxSound: java.util.ArrayList mEffecToPlayWhenLoadedArray
+org.cocos2dx.lib.Cocos2dxSound: int mStreamIdSyn
+org.cocos2dx.lib.Cocos2dxSound: java.util.concurrent.Semaphore mSemaphore
+org.cocos2dx.lib.Cocos2dxSound: int simultaneousStreams
+org.cocos2dx.lib.Cocos2dxSound: float SOUND_RATE
+org.cocos2dx.lib.Cocos2dxSound: int SOUND_PRIORITY
+org.cocos2dx.lib.Cocos2dxSound: int SOUND_QUALITY
+org.cocos2dx.lib.Cocos2dxSound: int INVALID_SOUND_ID
+org.cocos2dx.lib.Cocos2dxSound: int INVALID_STREAM_ID
+org.cocos2dx.lib.Cocos2dxSound: Cocos2dxSound(android.content.Context,int)
+org.cocos2dx.lib.Cocos2dxSound: void initData(int)
+org.cocos2dx.lib.Cocos2dxSound: int preloadEffect(java.lang.String)
+org.cocos2dx.lib.Cocos2dxSound: void unloadEffect(java.lang.String)
+org.cocos2dx.lib.Cocos2dxSound: int playEffect(java.lang.String,boolean)
+org.cocos2dx.lib.Cocos2dxSound: void stopEffect(int)
+org.cocos2dx.lib.Cocos2dxSound: void pauseEffect(int)
+org.cocos2dx.lib.Cocos2dxSound: void resumeEffect(int)
+org.cocos2dx.lib.Cocos2dxSound: void pauseAllEffects()
+org.cocos2dx.lib.Cocos2dxSound: void resumeAllEffects()
+org.cocos2dx.lib.Cocos2dxSound: void stopAllEffects()
+org.cocos2dx.lib.Cocos2dxSound: float getEffectsVolume()
+org.cocos2dx.lib.Cocos2dxSound: void setEffectsVolume(float)
+org.cocos2dx.lib.Cocos2dxSound: void end()
+org.cocos2dx.lib.Cocos2dxSound: int createSoundIDFromAsset(java.lang.String)
+org.cocos2dx.lib.Cocos2dxSound: int doPlayEffect(java.lang.String,int,boolean)
+org.cocos2dx.lib.Cocos2dxSound: java.util.ArrayList access$0(org.cocos2dx.lib.Cocos2dxSound)
+org.cocos2dx.lib.Cocos2dxSound: int access$1(org.cocos2dx.lib.Cocos2dxSound,java.lang.String,int,boolean)
+org.cocos2dx.lib.Cocos2dxSound: void access$2(org.cocos2dx.lib.Cocos2dxSound,int)
+org.cocos2dx.lib.Cocos2dxSound: java.util.concurrent.Semaphore access$3(org.cocos2dx.lib.Cocos2dxSound)
+org.cocos2dx.lib.Cocos2dxSound$OnLoadCompletedListener
+org.cocos2dx.lib.Cocos2dxSound$OnLoadCompletedListener: org.cocos2dx.lib.Cocos2dxSound this$0
+org.cocos2dx.lib.Cocos2dxSound$OnLoadCompletedListener: Cocos2dxSound$OnLoadCompletedListener(org.cocos2dx.lib.Cocos2dxSound)
+org.cocos2dx.lib.Cocos2dxSound$OnLoadCompletedListener: void onLoadComplete(android.media.SoundPool,int,int)
+org.cocos2dx.lib.Cocos2dxSound$SoundInfoForLoadedCompleted
+org.cocos2dx.lib.Cocos2dxSound$SoundInfoForLoadedCompleted: int soundID
+org.cocos2dx.lib.Cocos2dxSound$SoundInfoForLoadedCompleted: boolean isLoop
+org.cocos2dx.lib.Cocos2dxSound$SoundInfoForLoadedCompleted: java.lang.String path
+org.cocos2dx.lib.Cocos2dxSound$SoundInfoForLoadedCompleted: org.cocos2dx.lib.Cocos2dxSound this$0
+org.cocos2dx.lib.Cocos2dxSound$SoundInfoForLoadedCompleted: Cocos2dxSound$SoundInfoForLoadedCompleted(org.cocos2dx.lib.Cocos2dxSound,java.lang.String,int,boolean)
+org.cocos2dx.lib.Cocos2dxTextInputWraper
+org.cocos2dx.lib.Cocos2dxTextInputWraper: java.lang.String TAG
+org.cocos2dx.lib.Cocos2dxTextInputWraper: org.cocos2dx.lib.Cocos2dxGLSurfaceView mCocos2dxGLSurfaceView
+org.cocos2dx.lib.Cocos2dxTextInputWraper: java.lang.String mText
+org.cocos2dx.lib.Cocos2dxTextInputWraper: java.lang.String mOriginText
+org.cocos2dx.lib.Cocos2dxTextInputWraper: void <clinit>()
+org.cocos2dx.lib.Cocos2dxTextInputWraper: Cocos2dxTextInputWraper(org.cocos2dx.lib.Cocos2dxGLSurfaceView)
+org.cocos2dx.lib.Cocos2dxTextInputWraper: boolean isFullScreenEdit()
+org.cocos2dx.lib.Cocos2dxTextInputWraper: void setOriginText(java.lang.String)
+org.cocos2dx.lib.Cocos2dxTextInputWraper: void afterTextChanged(android.text.Editable)
+org.cocos2dx.lib.Cocos2dxTextInputWraper: void beforeTextChanged(java.lang.CharSequence,int,int,int)
+org.cocos2dx.lib.Cocos2dxTextInputWraper: void onTextChanged(java.lang.CharSequence,int,int,int)
+org.cocos2dx.lib.Cocos2dxTextInputWraper: boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent)
+org.cocos2dx.lib.Cocos2dxTypefaces
+org.cocos2dx.lib.Cocos2dxTypefaces: java.util.HashMap sTypefaceCache
+org.cocos2dx.lib.Cocos2dxTypefaces: void <clinit>()
+org.cocos2dx.lib.Cocos2dxTypefaces: Cocos2dxTypefaces()
+org.cocos2dx.lib.Cocos2dxTypefaces: android.graphics.Typeface get(android.content.Context,java.lang.String)

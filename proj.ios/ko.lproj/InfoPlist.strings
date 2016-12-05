@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  PuzzleWizard
+
+  Created by Cheeky Mammoth on 1/02/2014.
+
+*/
+
+"CFBundleDisplayName" = "퍼즐 위저드";
+"CFBundleName" = "퍼즐 위저드";
+"NSHumanReadableCopyright" = "저작권 © 2015 Cheeky Mammoth Pty Ltd. 모든 권리 보유.";
+"CFBundleGetInfoString" = "퍼즐 위저드 v1.0, 저작권 © 2015 Cheeky Mammoth Pty Ltd.";
